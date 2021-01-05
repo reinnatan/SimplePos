@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "MasterViewController.selectFood(foodSelected:):MasterViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "menuSelected">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DetailViewController.collectionView(_:didSelectItemAt:):DetailViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "foodMenus[indexPath.row]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

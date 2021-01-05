@@ -1,0 +1,6 @@
+framework module Pods_SimplePOS {
+  umbrella header "Pods-SimplePOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

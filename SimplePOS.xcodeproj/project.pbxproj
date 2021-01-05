@@ -3,18 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		97C2455B573936D8615CFC02 /* Pods_SimplePOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D390670836B4F793298A75E /* Pods_SimplePOS.framework */; };
 		9B064B80254C1A15009A89E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B064B7F254C1A15009A89E5 /* AppDelegate.swift */; };
 		9B064B82254C1A15009A89E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B064B81254C1A15009A89E5 /* SceneDelegate.swift */; };
-		9B064B84254C1A15009A89E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B064B83254C1A15009A89E5 /* ViewController.swift */; };
+		9B064B84254C1A15009A89E5 /* HomeMasterDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B064B83254C1A15009A89E5 /* HomeMasterDetailController.swift */; };
 		9B064B87254C1A15009A89E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B064B85254C1A15009A89E5 /* Main.storyboard */; };
 		9B064B89254C1A16009A89E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B064B88254C1A16009A89E5 /* Assets.xcassets */; };
 		9B064B8C254C1A16009A89E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B064B8A254C1A16009A89E5 /* LaunchScreen.storyboard */; };
 		9B064B97254C1A16009A89E5 /* SimplePOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B064B96254C1A16009A89E5 /* SimplePOSTests.swift */; };
 		9B064BA2254C1A16009A89E5 /* SimplePOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B064BA1254C1A16009A89E5 /* SimplePOSUITests.swift */; };
+		9B064BB1254C1AB1009A89E5 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B064BAF254C1AB1009A89E5 /* MasterViewController.swift */; };
+		9B064BB2254C1AB1009A89E5 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B064BB0254C1AB1009A89E5 /* MasterViewController.xib */; };
+		9B064BB5254C1AC3009A89E5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B064BB3254C1AC3009A89E5 /* DetailViewController.swift */; };
+		9B064BB6254C1AC3009A89E5 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B064BB4254C1AC3009A89E5 /* DetailViewController.xib */; };
+		9B0A0A47254FB26B0097F089 /* MasterFooterItemViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0A0A45254FB26B0097F089 /* MasterFooterItemViewCell.swift */; };
+		9B0A0A48254FB26B0097F089 /* MasterFooterItemViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B0A0A46254FB26B0097F089 /* MasterFooterItemViewCell.xib */; };
+		9B160054254D2CA5004804AC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B160052254D2CA5004804AC /* LoginViewController.swift */; };
+		9B160055254D2CA5004804AC /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B160053254D2CA5004804AC /* LoginViewController.xib */; };
+		9B8A2387254EF6660048E9BB /* FoodMenus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8A2386254EF6660048E9BB /* FoodMenus.swift */; };
+		9B8A2389254EFD890048E9BB /* FoodMenuSelected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8A2388254EFD890048E9BB /* FoodMenuSelected.swift */; };
+		9B8A238C254F00560048E9BB /* MasterItemViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8A238A254F00560048E9BB /* MasterItemViewCell.swift */; };
+		9B8A238D254F00560048E9BB /* MasterItemViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B8A238B254F00560048E9BB /* MasterItemViewCell.xib */; };
+		9BFF491A254DB94C003C52C2 /* DetailitemViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFF4918254DB94C003C52C2 /* DetailitemViewCell.swift */; };
+		9BFF491B254DB94C003C52C2 /* DetailitemViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BFF4919254DB94C003C52C2 /* DetailitemViewCell.xib */; };
+		B54F9EF158BED52E4043E645 /* Pods_SimplePOS_SimplePOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7374CF313877A19F9FDE54 /* Pods_SimplePOS_SimplePOSUITests.framework */; };
+		C557ACE8AE62CA243D856295 /* Pods_SimplePOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDEBF0A057216E82EAE40CCE /* Pods_SimplePOSTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +52,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03512AFF04A070F9416BD7AA /* Pods-SimplePOS-SimplePOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimplePOS-SimplePOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-SimplePOS-SimplePOSUITests/Pods-SimplePOS-SimplePOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1A7374CF313877A19F9FDE54 /* Pods_SimplePOS_SimplePOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimplePOS_SimplePOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45A2FD3B4310E8194ED7FB58 /* Pods-SimplePOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimplePOS.debug.xcconfig"; path = "Target Support Files/Pods-SimplePOS/Pods-SimplePOS.debug.xcconfig"; sourceTree = "<group>"; };
+		63843D98420B0ABF70C22E7B /* Pods-SimplePOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimplePOSTests.release.xcconfig"; path = "Target Support Files/Pods-SimplePOSTests/Pods-SimplePOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		7D390670836B4F793298A75E /* Pods_SimplePOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimplePOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87495CFA76450E96968F5ED8 /* Pods-SimplePOS-SimplePOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimplePOS-SimplePOSUITests.release.xcconfig"; path = "Target Support Files/Pods-SimplePOS-SimplePOSUITests/Pods-SimplePOS-SimplePOSUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9B064B7C254C1A15009A89E5 /* SimplePOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplePOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B064B7F254C1A15009A89E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B064B81254C1A15009A89E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9B064B83254C1A15009A89E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B064B83254C1A15009A89E5 /* HomeMasterDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMasterDetailController.swift; sourceTree = "<group>"; };
 		9B064B86254C1A15009A89E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B064B88254C1A16009A89E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B064B8B254C1A16009A89E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +72,23 @@
 		9B064B9D254C1A16009A89E5 /* SimplePOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplePOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B064BA1254C1A16009A89E5 /* SimplePOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePOSUITests.swift; sourceTree = "<group>"; };
 		9B064BA3254C1A16009A89E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B064BAF254C1AB1009A89E5 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		9B064BB0254C1AB1009A89E5 /* MasterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MasterViewController.xib; sourceTree = "<group>"; };
+		9B064BB3254C1AC3009A89E5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		9B064BB4254C1AC3009A89E5 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		9B0A0A45254FB26B0097F089 /* MasterFooterItemViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterFooterItemViewCell.swift; sourceTree = "<group>"; };
+		9B0A0A46254FB26B0097F089 /* MasterFooterItemViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MasterFooterItemViewCell.xib; sourceTree = "<group>"; };
+		9B160052254D2CA5004804AC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9B160053254D2CA5004804AC /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		9B8A2386254EF6660048E9BB /* FoodMenus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodMenus.swift; sourceTree = "<group>"; };
+		9B8A2388254EFD890048E9BB /* FoodMenuSelected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodMenuSelected.swift; sourceTree = "<group>"; };
+		9B8A238A254F00560048E9BB /* MasterItemViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterItemViewCell.swift; sourceTree = "<group>"; };
+		9B8A238B254F00560048E9BB /* MasterItemViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MasterItemViewCell.xib; sourceTree = "<group>"; };
+		9BFF4918254DB94C003C52C2 /* DetailitemViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailitemViewCell.swift; sourceTree = "<group>"; };
+		9BFF4919254DB94C003C52C2 /* DetailitemViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailitemViewCell.xib; sourceTree = "<group>"; };
+		CDEBF0A057216E82EAE40CCE /* Pods_SimplePOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimplePOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8B12F8ECB6D48D4939A84B9 /* Pods-SimplePOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimplePOSTests.debug.xcconfig"; path = "Target Support Files/Pods-SimplePOSTests/Pods-SimplePOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E3682D0EBE3AA4D379BF54F8 /* Pods-SimplePOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimplePOS.release.xcconfig"; path = "Target Support Files/Pods-SimplePOS/Pods-SimplePOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97C2455B573936D8615CFC02 /* Pods_SimplePOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C557ACE8AE62CA243D856295 /* Pods_SimplePOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +112,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B54F9EF158BED52E4043E645 /* Pods_SimplePOS_SimplePOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		755E2025587799319E0563E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D390670836B4F793298A75E /* Pods_SimplePOS.framework */,
+				1A7374CF313877A19F9FDE54 /* Pods_SimplePOS_SimplePOSUITests.framework */,
+				CDEBF0A057216E82EAE40CCE /* Pods_SimplePOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9B064B73254C1A15009A89E5 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +136,8 @@
 				9B064B95254C1A16009A89E5 /* SimplePOSTests */,
 				9B064BA0254C1A16009A89E5 /* SimplePOSUITests */,
 				9B064B7D254C1A15009A89E5 /* Products */,
+				E320D79D9AD67E4C7BA6B22C /* Pods */,
+				755E2025587799319E0563E2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +154,26 @@
 		9B064B7E254C1A15009A89E5 /* SimplePOS */ = {
 			isa = PBXGroup;
 			children = (
+				9B8A2385254EF62C0048E9BB /* Entity */,
 				9B064B7F254C1A15009A89E5 /* AppDelegate.swift */,
 				9B064B81254C1A15009A89E5 /* SceneDelegate.swift */,
-				9B064B83254C1A15009A89E5 /* ViewController.swift */,
+				9B064B83254C1A15009A89E5 /* HomeMasterDetailController.swift */,
 				9B064B85254C1A15009A89E5 /* Main.storyboard */,
 				9B064B88254C1A16009A89E5 /* Assets.xcassets */,
 				9B064B8A254C1A16009A89E5 /* LaunchScreen.storyboard */,
 				9B064B8D254C1A16009A89E5 /* Info.plist */,
+				9B064BAF254C1AB1009A89E5 /* MasterViewController.swift */,
+				9B064BB0254C1AB1009A89E5 /* MasterViewController.xib */,
+				9B064BB3254C1AC3009A89E5 /* DetailViewController.swift */,
+				9B064BB4254C1AC3009A89E5 /* DetailViewController.xib */,
+				9B160052254D2CA5004804AC /* LoginViewController.swift */,
+				9B160053254D2CA5004804AC /* LoginViewController.xib */,
+				9BFF4918254DB94C003C52C2 /* DetailitemViewCell.swift */,
+				9BFF4919254DB94C003C52C2 /* DetailitemViewCell.xib */,
+				9B8A238A254F00560048E9BB /* MasterItemViewCell.swift */,
+				9B8A238B254F00560048E9BB /* MasterItemViewCell.xib */,
+				9B0A0A45254FB26B0097F089 /* MasterFooterItemViewCell.swift */,
+				9B0A0A46254FB26B0097F089 /* MasterFooterItemViewCell.xib */,
 			);
 			path = SimplePOS;
 			sourceTree = "<group>";
@@ -128,6 +196,28 @@
 			path = SimplePOSUITests;
 			sourceTree = "<group>";
 		};
+		9B8A2385254EF62C0048E9BB /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				9B8A2386254EF6660048E9BB /* FoodMenus.swift */,
+				9B8A2388254EFD890048E9BB /* FoodMenuSelected.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		E320D79D9AD67E4C7BA6B22C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45A2FD3B4310E8194ED7FB58 /* Pods-SimplePOS.debug.xcconfig */,
+				E3682D0EBE3AA4D379BF54F8 /* Pods-SimplePOS.release.xcconfig */,
+				03512AFF04A070F9416BD7AA /* Pods-SimplePOS-SimplePOSUITests.debug.xcconfig */,
+				87495CFA76450E96968F5ED8 /* Pods-SimplePOS-SimplePOSUITests.release.xcconfig */,
+				D8B12F8ECB6D48D4939A84B9 /* Pods-SimplePOSTests.debug.xcconfig */,
+				63843D98420B0ABF70C22E7B /* Pods-SimplePOSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B064BA6254C1A16009A89E5 /* Build configuration list for PBXNativeTarget "SimplePOS" */;
 			buildPhases = (
+				EEC90ADF898017D140003862 /* [CP] Check Pods Manifest.lock */,
 				9B064B78254C1A15009A89E5 /* Sources */,
 				9B064B79254C1A15009A89E5 /* Frameworks */,
 				9B064B7A254C1A15009A89E5 /* Resources */,
+				8E2D610DCB2CFA7076026A16 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +244,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B064BA9254C1A16009A89E5 /* Build configuration list for PBXNativeTarget "SimplePOSTests" */;
 			buildPhases = (
+				87F349F61828FACE8B77A1CA /* [CP] Check Pods Manifest.lock */,
 				9B064B8E254C1A16009A89E5 /* Sources */,
 				9B064B8F254C1A16009A89E5 /* Frameworks */,
 				9B064B90254C1A16009A89E5 /* Resources */,
@@ -170,9 +263,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B064BAC254C1A16009A89E5 /* Build configuration list for PBXNativeTarget "SimplePOSUITests" */;
 			buildPhases = (
+				51F810F96D38F9D6B7DA8B61 /* [CP] Check Pods Manifest.lock */,
 				9B064B99254C1A16009A89E5 /* Sources */,
 				9B064B9A254C1A16009A89E5 /* Frameworks */,
 				9B064B9B254C1A16009A89E5 /* Resources */,
+				632284E7CA0D01C07E422892 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,7 +327,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B064BB2254C1AB1009A89E5 /* MasterViewController.xib in Resources */,
+				9B0A0A48254FB26B0097F089 /* MasterFooterItemViewCell.xib in Resources */,
 				9B064B8C254C1A16009A89E5 /* LaunchScreen.storyboard in Resources */,
+				9BFF491B254DB94C003C52C2 /* DetailitemViewCell.xib in Resources */,
+				9B160055254D2CA5004804AC /* LoginViewController.xib in Resources */,
+				9B064BB6254C1AC3009A89E5 /* DetailViewController.xib in Resources */,
+				9B8A238D254F00560048E9BB /* MasterItemViewCell.xib in Resources */,
 				9B064B89254C1A16009A89E5 /* Assets.xcassets in Resources */,
 				9B064B87254C1A15009A89E5 /* Main.storyboard in Resources */,
 			);
@@ -254,14 +355,125 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		51F810F96D38F9D6B7DA8B61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimplePOS-SimplePOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		632284E7CA0D01C07E422892 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimplePOS-SimplePOSUITests/Pods-SimplePOS-SimplePOSUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimplePOS-SimplePOSUITests/Pods-SimplePOS-SimplePOSUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SimplePOS-SimplePOSUITests/Pods-SimplePOS-SimplePOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87F349F61828FACE8B77A1CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimplePOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E2D610DCB2CFA7076026A16 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimplePOS/Pods-SimplePOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimplePOS/Pods-SimplePOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SimplePOS/Pods-SimplePOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEC90ADF898017D140003862 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimplePOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9B064B78254C1A15009A89E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B064B84254C1A15009A89E5 /* ViewController.swift in Sources */,
+				9B160054254D2CA5004804AC /* LoginViewController.swift in Sources */,
+				9B064BB1254C1AB1009A89E5 /* MasterViewController.swift in Sources */,
+				9B8A2387254EF6660048E9BB /* FoodMenus.swift in Sources */,
+				9B8A238C254F00560048E9BB /* MasterItemViewCell.swift in Sources */,
+				9B064B84254C1A15009A89E5 /* HomeMasterDetailController.swift in Sources */,
+				9B064BB5254C1AC3009A89E5 /* DetailViewController.swift in Sources */,
+				9B0A0A47254FB26B0097F089 /* MasterFooterItemViewCell.swift in Sources */,
+				9B8A2389254EFD890048E9BB /* FoodMenuSelected.swift in Sources */,
 				9B064B80254C1A15009A89E5 /* AppDelegate.swift in Sources */,
 				9B064B82254C1A15009A89E5 /* SceneDelegate.swift in Sources */,
+				9BFF491A254DB94C003C52C2 /* DetailitemViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +644,7 @@
 		};
 		9B064BA7254C1A16009A89E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45A2FD3B4310E8194ED7FB58 /* Pods-SimplePOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -443,12 +656,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = rei.SimplePOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
 		9B064BA8254C1A16009A89E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3682D0EBE3AA4D379BF54F8 /* Pods-SimplePOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -460,12 +674,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = rei.SimplePOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
 		9B064BAA254C1A16009A89E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8B12F8ECB6D48D4939A84B9 /* Pods-SimplePOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +702,7 @@
 		};
 		9B064BAB254C1A16009A89E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63843D98420B0ABF70C22E7B /* Pods-SimplePOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +724,7 @@
 		};
 		9B064BAD254C1A16009A89E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03512AFF04A070F9416BD7AA /* Pods-SimplePOS-SimplePOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +744,7 @@
 		};
 		9B064BAE254C1A16009A89E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87495CFA76450E96968F5ED8 /* Pods-SimplePOS-SimplePOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
