@@ -3,150 +3,149 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01C4D8EA7B95ABED2FCE6A50BD4654F8 /* Pods-SimplePOS-SimplePOSUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFC590EDF5356EB60E4656FC259330C /* Pods-SimplePOS-SimplePOSUITests-dummy.m */; };
-		0D033B38FCDE5389CC620221947FD735 /* Pods-SimplePOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BEEFB7023D62333D656D4D26709926EC /* Pods-SimplePOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0E65DF85B20D41B7B0E35D8AEA0A6F71 /* NSLocale+MaterialRTL.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 3396DCE1B7A681D861D98A1D2C336612 /* NSLocale+MaterialRTL.h */; };
-		0F0D679F6FCC783ACD5B6E7BA83850C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B00129108FBE3BC8DB25433AF89FFE98 /* Foundation.framework */; };
-		1107F94D0DA0FB1C83306F1CA2F32F52 /* MDFInternationalization.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506E59D3B354DC607C110023AD20DD5D /* MDFInternationalization.framework */; };
-		142D66D0CAD01BBF9AF62BC4F8ED2A0D /* MDCStatefulRippleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D4F6C9A17B6637B56F39168D49FB183 /* MDCStatefulRippleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		16612C7CA54B20E62088112F08802E3C /* MDCStatefulRippleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 873FEE21887EB275CE0505779229B554 /* MDCStatefulRippleView.m */; };
-		16AFB6CE16F53E9AC60C2FFC374810C6 /* MaterialMathDummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE9499430935453E52DAB5B27932CA5 /* MaterialMathDummy.m */; };
-		1EEBFCC786C3E5DE001B07578275797D /* MDCTabBarViewUnderlineIndicatorTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9CCC4E5DA343CB4C1CCFB5FAE6DC4D /* MDCTabBarViewUnderlineIndicatorTemplate.m */; };
-		1EEE80DDADB8FC9D8FAC9CDCF3E8C9DF /* Pods-SimplePOS-SimplePOSUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC25D2598EE19C75E189A3B1E6271933 /* Pods-SimplePOS-SimplePOSUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		372C9F74AA34D460034194811FF98E1D /* MaterialColor.h in Headers */ = {isa = PBXBuildFile; fileRef = EBF2D0FE7DA5B9C28AE3CEE2DA937122 /* MaterialColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		386BD7D3CCB0A2CE39227770944C31B3 /* MDCTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 660A1445A1143F59585DB137E721E9ED /* MDCTabBarView.m */; };
-		3CD18FF60DD572616888EE1AAEF24306 /* MDCTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 05163541408FC49846AA0F29E079A70F /* MDCTabBarItem.m */; };
-		3CE75475CF42F46FFF98808544D5EC6D /* MaterialComponents-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 412A479717E3DE39A5591AFEC5F5CFF7 /* MaterialComponents-dummy.m */; };
-		3F0D2F3E41CA36B23A351277E075F18C /* MDCTabBarViewIndicatorAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = D51E23AF8FE2B98C3D268014D2B23FB2 /* MDCTabBarViewIndicatorAttributes.m */; };
-		404BB72D786970CA5255EDF4FE012F1C /* MDFInternationalization.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 7EC9504ECEF57012178B6FFCA86DFA7D /* MDFInternationalization.h */; };
-		44A6D2E4EB94C09EDAE2BF654418AC9E /* UIImage+MaterialRTL.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D29B8433D0A6BD142F4A335500B8FE /* UIImage+MaterialRTL.m */; };
-		48DED7C521BB7D4424F5C3B032ED6429 /* MaterialRipple.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B6FDA1521CA7D3C4DFC699347233693 /* MaterialRipple.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		49F2A7BF643690BE07D1D8A98DD07569 /* UIView+MaterialRTL.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 4C93817C7FB3E845C39583117437EB92 /* UIView+MaterialRTL.h */; };
-		4CA042586B5F60178AA0BE7BFF47589A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B00129108FBE3BC8DB25433AF89FFE98 /* Foundation.framework */; };
-		534B236F7D140459305D32AC66D42755 /* MDCRippleView.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FB199254BB843465CD8192FEC25307 /* MDCRippleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		59FEEE094E86A7D4EF1F46BBF43DF08B /* MDFRTL.h in Headers */ = {isa = PBXBuildFile; fileRef = D3790CB692049851A4437B646A3EA94E /* MDFRTL.h */; };
-		5B56861CABF2114323AC0D83157C1BE0 /* NSLocale+MaterialRTL.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE0630F47CCD557750F6FA2AEB41B56 /* NSLocale+MaterialRTL.m */; };
-		616353A2412A8D17C8D3A98D6CBA467A /* MDFRTL.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = D3790CB692049851A4437B646A3EA94E /* MDFRTL.h */; };
-		61D51450D582ACD9A3A51A86AAE86884 /* MaterialComponents-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75BC67C54B4919A748E15C484A0427E1 /* MaterialComponents-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		631C711D925BAE4BB9FE0C6E0547A367 /* MDCTabBarViewIndicatorTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = 532E8589051EE7AE484A532E57522FD6 /* MDCTabBarViewIndicatorTemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		69E446114D2DCC1F837276F4E5F80FF5 /* MDFInternationalization-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D32218250F3C944D1BFC49216ED70D3B /* MDFInternationalization-dummy.m */; };
-		705D67D2572662A5109B07BCBF2DE0C1 /* UIImage+MaterialRTL.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 7AC77B71A639A76304CF48D760E92A90 /* UIImage+MaterialRTL.h */; };
-		70884666165CB37091CC4E6118D1C753 /* UIView+MaterialRTL.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C93817C7FB3E845C39583117437EB92 /* UIView+MaterialRTL.h */; };
-		727E88B9FC5A5B4BA4E8D3166EA97CD1 /* NSString+MaterialBidi.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FA08BA9E852D425C269A8A7D3037F93 /* NSString+MaterialBidi.h */; };
-		746871A60E38C345E084F2A3D113C19D /* MDCTabBarViewIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ABE484F3A9578B7A34A0E70D4C1F452 /* MDCTabBarViewIndicatorView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		783FC6396962F72DE1073EF516C6D7F6 /* CAMediaTimingFunction+MDCAnimationTiming.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A56FAFA1D2EBA70A756251A59674335 /* CAMediaTimingFunction+MDCAnimationTiming.m */; };
-		785FC1B5D857385A94263DB509231D99 /* UIColor+MaterialDynamic.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A6313B860A6670CE0568AC410ABB9B1 /* UIColor+MaterialDynamic.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		789C5A58EB17BC93D196856FE2235BDC /* MaterialTabs+TabBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 162F07596C288A43AFF742220DDF0BC9 /* MaterialTabs+TabBarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7BFE28AA14878972988D67723481E6FE /* MDCRippleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E0A804C1D7444F0BDFDFBE9393F9CA /* MDCRippleLayer.m */; };
-		7D1DCE9F17532596776B25F1DCA4C323 /* MDCTabBarViewItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 357FAC557328516AE3C64ED290213CF7 /* MDCTabBarViewItemView.m */; };
-		7E9F6F881DAB28D4036EED279A7024A1 /* MDFInternationalization.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EC9504ECEF57012178B6FFCA86DFA7D /* MDFInternationalization.h */; };
-		81D30866E902C49BACA3B9F6F51CE146 /* MDCRippleLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = C6BFB9A4FF062834AE87D3E0BB108FBA /* MDCRippleLayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		823A44AC43B3F70F8084C110981450DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B00129108FBE3BC8DB25433AF89FFE98 /* Foundation.framework */; };
-		82B29C3574222A39EBC85895FAE5B0AF /* MDCRippleTouchController.h in Headers */ = {isa = PBXBuildFile; fileRef = CB5696A185435D4E88BE7CE6FC8F01E0 /* MDCRippleTouchController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		87EA430667A4006F6574575F4CDFAFD9 /* UIView+MaterialRTL.m in Sources */ = {isa = PBXBuildFile; fileRef = 239BBFC1A034D40BF22DE4501B43574B /* UIView+MaterialRTL.m */; };
-		896A6ECBE3B00024F2EC5349871EBB79 /* MDCRippleTouchController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8371BE8A2DFF47DBB36A960F94D51F0 /* MDCRippleTouchController.m */; };
-		8B35F11C28DD653D14BAE958C4D420CC /* Pods-SimplePOSTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78BA216A10AE6815F470909961ECE524 /* Pods-SimplePOSTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B3A919809DEA58CFBD52A52DB2D4377 /* MDFInternationalization-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CDD84B1F0DE7E2D8F946BD5FE5F5EC6 /* MDFInternationalization-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B7309DE51303B5A7C425CD6371F0A29 /* MDCTabBarViewIndicatorAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF5778E775BEDE2271908AB2096D02 /* MDCTabBarViewIndicatorAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		93F0AC25C3E54B95F363C862F54D9CC7 /* MDCRippleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2916A3EB9DE5775CC50A053D5DD3EA5A /* MDCRippleView.m */; };
-		94E21A4DCF09256B287E8D172EC1B9CC /* UIColor+MaterialDynamic.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7C1AAD01F142229847DE377A654CF2 /* UIColor+MaterialDynamic.m */; };
-		96FA665A37A4C8D6594DC05FD8CC697A /* MDCTabBarItemCustomViewing.h in Headers */ = {isa = PBXBuildFile; fileRef = A78ED8D3F5D623ADC6E6153DB44D31CF /* MDCTabBarItemCustomViewing.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C0CF099AAF89BD200C192621146ED94 /* MDCAvailability.h in Headers */ = {isa = PBXBuildFile; fileRef = E02E661CCDB2BE1FBCFB04942B66AC2E /* MDCAvailability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F9B68783E95B7C0388E76915F7F0359 /* UIColor+MaterialBlending.h in Headers */ = {isa = PBXBuildFile; fileRef = 13E84BD518650D7EAD5E8628B44E2358 /* UIColor+MaterialBlending.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A30F29297077A70EF86CF16338E50D59 /* MDCTabBarViewUnderlineIndicatorTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = F22519EF73A2CE8116FFD59B28972019 /* MDCTabBarViewUnderlineIndicatorTemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A5BDF9A23987BB9BEF5AC0C26497D0D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B00129108FBE3BC8DB25433AF89FFE98 /* Foundation.framework */; };
-		AB2AE0F1CF50B54C7B2EF3B6F49FB38C /* MaterialAnimationTiming.h in Headers */ = {isa = PBXBuildFile; fileRef = 4977A1B695AB974F1ECFEE9E044D145F /* MaterialAnimationTiming.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AD25CF42FD881D4D6266CE3EFDF36742 /* UIColor+MaterialBlending.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FAD7EF76FCCAD01E49B034A245DE1BA /* UIColor+MaterialBlending.m */; };
-		AF924AA517C503156DAEC1C64C5A962F /* MDCTabBarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 4511A6F28D4716D2B6CB4EA059C1AF40 /* MDCTabBarItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AFDB48A60BF69EB9E4A0154EEBE73B57 /* MDCTabBarViewPrivateIndicatorContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D2A80264B0CDB7D5AEFCF4E8E922187 /* MDCTabBarViewPrivateIndicatorContext.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B78DCFCF104BA4DB6C8F65C542CF35B6 /* CAMediaTimingFunction+MDCAnimationTiming.h in Headers */ = {isa = PBXBuildFile; fileRef = 4245985C0A2EB83288A6FC73D0A857C5 /* CAMediaTimingFunction+MDCAnimationTiming.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BFE40124272C7F2EF656F0F093FB15B6 /* UIImage+MaterialRTL.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AC77B71A639A76304CF48D760E92A90 /* UIImage+MaterialRTL.h */; };
-		C3A8031AF3C66BEAA20F976EB4A43DF8 /* MDCMath.h in Headers */ = {isa = PBXBuildFile; fileRef = B502C26CF1428D4D0505046E3C6837D4 /* MDCMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C579C01FCA45038B5F05B629BFD239BA /* UIView+MDCTimingFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 23328C83C37FA9AA38BEA3FD4B511017 /* UIView+MDCTimingFunction.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C70FE2436955F1DC4E11016DEDE62F71 /* MDCRippleTouchControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B2EDA8519333250DEDC0F24302FBFA6 /* MDCRippleTouchControllerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CA0A227217A7EDE7578ACDBCD16F8039 /* MDCRippleViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB270E23373A8CDF75E96BCB2EE2B76 /* MDCRippleViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CCEB5E5DB2D7EFB24EF631F8BCD03B12 /* MDCRippleLayerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A709A27E40EAA288650AB9060DBE988 /* MDCRippleLayerDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D1F9052C6AFDEDAB4C0E8DAB77B0E9D9 /* NSString+MaterialBidi.m in Sources */ = {isa = PBXBuildFile; fileRef = 105F9D185265504743BB8F1AC0ED3A09 /* NSString+MaterialBidi.m */; };
-		D360FA692EDB73B0FA1CEEACBE57A6E3 /* MDCTabBarViewCustomViewable.h in Headers */ = {isa = PBXBuildFile; fileRef = D5602F10D4DD2CBFA1A80DF6330183A9 /* MDCTabBarViewCustomViewable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DB5001A60753025887BAA524D08EAD02 /* MDCTabBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 395A9DF281D1C9B0B801375081F0DF85 /* MDCTabBarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF9D7E3658C1C90F381CFB90A7328478 /* UIView+MDCTimingFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = E64DCF2C244630BED1434B5F5221420C /* UIView+MDCTimingFunction.m */; };
-		E05B6E40B1C49970348A779BE13E7128 /* NSString+MaterialBidi.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 9FA08BA9E852D425C269A8A7D3037F93 /* NSString+MaterialBidi.h */; };
-		E0F2F340AC3FCA061F7182FB7EA04706 /* Pods-SimplePOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E84C5C59AAED9DFB395B4D4E1E1D22A7 /* Pods-SimplePOSTests-dummy.m */; };
-		E2C46BBD4738FBC64311ADF446BD8BA2 /* NSLocale+MaterialRTL.h in Headers */ = {isa = PBXBuildFile; fileRef = 3396DCE1B7A681D861D98A1D2C336612 /* NSLocale+MaterialRTL.h */; };
-		E67940DF9AC160F31FF5266FCE0DA4BC /* MDCTabBarViewIndicatorContext.h in Headers */ = {isa = PBXBuildFile; fileRef = EC9D120C8DC868D641AD26DC2E56C123 /* MDCTabBarViewIndicatorContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E6CD26FDF16CFEB2A1279B26CC493490 /* MDCTabBarViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BE48342F18B6917ED3DB5AE402ECDEA /* MDCTabBarViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E774447385D9C64A5F8FBC1D25C0FC04 /* MaterialMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C7C118823AEEE71DEB7080D303991C5 /* MaterialMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EAD4C3EE6AC618E7A934902950EDC48E /* MDCTabBarViewIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD800216F0C40C40C6C20CB0B606D7C /* MDCTabBarViewIndicatorView.m */; };
-		EED4F92CFFF91200DB32B028378075F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B00129108FBE3BC8DB25433AF89FFE98 /* Foundation.framework */; };
-		F237FC85B20831AB3FF3F1FC00BE8D00 /* MDFRTL.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D8DB60EB71B7A65D0B5FEB7C9F6C18 /* MDFRTL.m */; };
-		F5B3F7921260F93A00002B46943CB153 /* MaterialAvailability.h in Headers */ = {isa = PBXBuildFile; fileRef = CA4CBB13693D75F36B16EF660EF365F8 /* MaterialAvailability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA0605A6D3649AF7E0EC8C583F547595 /* MDCTabBarViewItemView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B35FD72F0C2F01976CA0C0866E10628 /* MDCTabBarViewItemView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FCA1019018E1E95726F11B965EDA3A78 /* Pods-SimplePOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DBE1811B359C1094E45704010CE23A /* Pods-SimplePOS-dummy.m */; };
-		FE2F2E96999E0F555A39D2922E927AE1 /* MDCTabBarViewPrivateIndicatorContext.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4ED9E45BAD247312F924D071484C54 /* MDCTabBarViewPrivateIndicatorContext.m */; };
+		0274A4D9A05A66145A3FEDA5877BB310 /* MDCTabBarViewIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD800216F0C40C40C6C20CB0B606D7C /* MDCTabBarViewIndicatorView.m */; };
+		03219B99BEEC9AB447188784DFDF4E19 /* UIImage+MaterialRTL.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D29B8433D0A6BD142F4A335500B8FE /* UIImage+MaterialRTL.m */; };
+		075D8CB5294DC8511124F78A75EAF42E /* MDCStatefulRippleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D4F6C9A17B6637B56F39168D49FB183 /* MDCStatefulRippleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		093772C37079F05FD43353DD53590C97 /* MDCRippleLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = C6BFB9A4FF062834AE87D3E0BB108FBA /* MDCRippleLayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		093C7D0D030FBAC56A72D9E5D14C14BB /* MDCRippleLayerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A709A27E40EAA288650AB9060DBE988 /* MDCRippleLayerDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		094D3E0C5014C9BB8AD6BFB7F86F9F59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		0A3D199BB16288962870E71621C5A13B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		0AC1DC46A0F3447956385F5DAAB1C37F /* MDCTabBarViewItemView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B35FD72F0C2F01976CA0C0866E10628 /* MDCTabBarViewItemView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0DE02EAD9DF62BA40CCF633A4CF7FB08 /* MDCTabBarViewIndicatorTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = 532E8589051EE7AE484A532E57522FD6 /* MDCTabBarViewIndicatorTemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1062EDD2C5C3B8D7A91592F639600D74 /* MDFInternationalization.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EC9504ECEF57012178B6FFCA86DFA7D /* MDFInternationalization.h */; };
+		124EEAE22B8077371D55FDB1AC4F4D30 /* NSString+MaterialBidi.m in Sources */ = {isa = PBXBuildFile; fileRef = 105F9D185265504743BB8F1AC0ED3A09 /* NSString+MaterialBidi.m */; };
+		1308CA92AE26CA5FB07B037C8CCB9745 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		14EE04DD848BFBBF915B09ED834A42F9 /* Pods-SimplePOSTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78BA216A10AE6815F470909961ECE524 /* Pods-SimplePOSTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B62355E6352AD25E1294662009D17EE /* MDCRippleTouchController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8371BE8A2DFF47DBB36A960F94D51F0 /* MDCRippleTouchController.m */; };
+		1DCF9A800AE274F89C29078A6E212B7D /* MDFInternationalization-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CDD84B1F0DE7E2D8F946BD5FE5F5EC6 /* MDFInternationalization-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20009A06180B77B7F161D55A5F01109C /* Pods-SimplePOS-SimplePOSUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC25D2598EE19C75E189A3B1E6271933 /* Pods-SimplePOS-SimplePOSUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25ABCCB506CD51393434BE44F446AD5F /* MDFInternationalization-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D32218250F3C944D1BFC49216ED70D3B /* MDFInternationalization-dummy.m */; };
+		2B649B86C09D3AEF3C832DE7FBA405C4 /* MDCRippleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2916A3EB9DE5775CC50A053D5DD3EA5A /* MDCRippleView.m */; };
+		2DF04D630778C46810D82FA10F1DA545 /* Pods-SimplePOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E84C5C59AAED9DFB395B4D4E1E1D22A7 /* Pods-SimplePOSTests-dummy.m */; };
+		3373AD4A25BC15D811135A04B4D3C862 /* MDCTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 05163541408FC49846AA0F29E079A70F /* MDCTabBarItem.m */; };
+		3510E37C5DDABFEF540B58C3F481BBC9 /* MDCRippleViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB270E23373A8CDF75E96BCB2EE2B76 /* MDCRippleViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3629489576D74E6AE0B958D6D5B98557 /* UIColor+MaterialBlending.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FAD7EF76FCCAD01E49B034A245DE1BA /* UIColor+MaterialBlending.m */; };
+		366872E2C1E10154C8E80DD5C8B28053 /* MDCRippleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E0A804C1D7444F0BDFDFBE9393F9CA /* MDCRippleLayer.m */; };
+		38A8BACEA0764095E2E33E9E6D4ACA53 /* UIColor+MaterialBlending.h in Headers */ = {isa = PBXBuildFile; fileRef = 13E84BD518650D7EAD5E8628B44E2358 /* UIColor+MaterialBlending.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C33D821A07B134C870DEC30FFB68AC6 /* MDCTabBarItemCustomViewing.h in Headers */ = {isa = PBXBuildFile; fileRef = A78ED8D3F5D623ADC6E6153DB44D31CF /* MDCTabBarItemCustomViewing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CE30BDD410305F4D3C8C13D12507A4A /* NSLocale+MaterialRTL.h in Headers */ = {isa = PBXBuildFile; fileRef = 3396DCE1B7A681D861D98A1D2C336612 /* NSLocale+MaterialRTL.h */; };
+		3D54C4394606F85FE98D0B6DB5F3DF36 /* MDCMath.h in Headers */ = {isa = PBXBuildFile; fileRef = B502C26CF1428D4D0505046E3C6837D4 /* MDCMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DCCF761B72AB77C921C6347AD39D34E /* NSLocale+MaterialRTL.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 3396DCE1B7A681D861D98A1D2C336612 /* NSLocale+MaterialRTL.h */; };
+		3F13161A6DE9B055CE2DC4170BFB8653 /* Pods-SimplePOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DBE1811B359C1094E45704010CE23A /* Pods-SimplePOS-dummy.m */; };
+		40760A4565CD5F4AD878076AA342F0AB /* UIView+MDCTimingFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 23328C83C37FA9AA38BEA3FD4B511017 /* UIView+MDCTimingFunction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40C6268949A0B899BE9CAC81BC7B69A3 /* UIColor+MaterialDynamic.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7C1AAD01F142229847DE377A654CF2 /* UIColor+MaterialDynamic.m */; };
+		44A33649A855799A4C8613D8ECB1E1C8 /* MDCTabBarViewIndicatorContext.h in Headers */ = {isa = PBXBuildFile; fileRef = EC9D120C8DC868D641AD26DC2E56C123 /* MDCTabBarViewIndicatorContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		472B950EC1C0CA1C6CE6B44DA1B6F8B1 /* MDCStatefulRippleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 873FEE21887EB275CE0505779229B554 /* MDCStatefulRippleView.m */; };
+		4BC1AE6845D06CAB4735A165C302F291 /* UIColor+MaterialDynamic.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A6313B860A6670CE0568AC410ABB9B1 /* UIColor+MaterialDynamic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		546594038A39C1C5480919C5C51FFF46 /* NSString+MaterialBidi.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 9FA08BA9E852D425C269A8A7D3037F93 /* NSString+MaterialBidi.h */; };
+		59CDBA9C3CE3ED511CD037257CEA1875 /* MDCTabBarViewIndicatorAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF5778E775BEDE2271908AB2096D02 /* MDCTabBarViewIndicatorAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CD4B754D480A590452C25C30BBE0156 /* UIView+MDCTimingFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = E64DCF2C244630BED1434B5F5221420C /* UIView+MDCTimingFunction.m */; };
+		64317603918517CB58BC50355BBD14F8 /* MDFInternationalization.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 7EC9504ECEF57012178B6FFCA86DFA7D /* MDFInternationalization.h */; };
+		66F62B0BFCEBC2857813CE8E3510121F /* MaterialComponents-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 412A479717E3DE39A5591AFEC5F5CFF7 /* MaterialComponents-dummy.m */; };
+		68C81A493C4CD3F1D8425C3C12B6F1E3 /* MDFRTL.h in Headers */ = {isa = PBXBuildFile; fileRef = D3790CB692049851A4437B646A3EA94E /* MDFRTL.h */; };
+		6E9C62F78CEC075358A18B6C62DAE284 /* MaterialComponents-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75BC67C54B4919A748E15C484A0427E1 /* MaterialComponents-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7ACDC60CC727AAC7BFBCAB1CFA8529BF /* MaterialMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C7C118823AEEE71DEB7080D303991C5 /* MaterialMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CEC72A2A8B2C46B452AF126DC5747FC /* MaterialMathDummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE9499430935453E52DAB5B27932CA5 /* MaterialMathDummy.m */; };
+		7DB6497C9CC06CA922AC1152CE38CDAC /* MDFRTL.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = D3790CB692049851A4437B646A3EA94E /* MDFRTL.h */; };
+		7F6777F23ED3C345C1E95094019D80CD /* MDCAvailability.h in Headers */ = {isa = PBXBuildFile; fileRef = E02E661CCDB2BE1FBCFB04942B66AC2E /* MDCAvailability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8719911277787D6EA6EEA6BEFC20C006 /* MDCTabBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 395A9DF281D1C9B0B801375081F0DF85 /* MDCTabBarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B71F4CD34FADC8D66BEB74E9BB736E1 /* MDCTabBarViewPrivateIndicatorContext.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4ED9E45BAD247312F924D071484C54 /* MDCTabBarViewPrivateIndicatorContext.m */; };
+		8C050C985EF60CCC3B9E25050BE20F3E /* NSLocale+MaterialRTL.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE0630F47CCD557750F6FA2AEB41B56 /* NSLocale+MaterialRTL.m */; };
+		8EFABEE2E3BAE5BD9B93C1B58A69A178 /* UIView+MaterialRTL.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 4C93817C7FB3E845C39583117437EB92 /* UIView+MaterialRTL.h */; };
+		8F1C9C86D0323D8C1F53969CBE99F80B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		92D9E9B33C69CA7A68491C70E5C107BC /* MDCTabBarViewIndicatorAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = D51E23AF8FE2B98C3D268014D2B23FB2 /* MDCTabBarViewIndicatorAttributes.m */; };
+		97BF6C8F450E536A060E397E9E95E52F /* MaterialColor.h in Headers */ = {isa = PBXBuildFile; fileRef = EBF2D0FE7DA5B9C28AE3CEE2DA937122 /* MaterialColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		984167BC563C943B94B43A01DECBEAB0 /* UIView+MaterialRTL.m in Sources */ = {isa = PBXBuildFile; fileRef = 239BBFC1A034D40BF22DE4501B43574B /* UIView+MaterialRTL.m */; };
+		9BF165F2AB82EC476C70F7A39263BC4A /* MaterialTabs+TabBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 162F07596C288A43AFF742220DDF0BC9 /* MaterialTabs+TabBarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F64E84B54A721D525FB5FEB6B04AD92 /* NSString+MaterialBidi.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FA08BA9E852D425C269A8A7D3037F93 /* NSString+MaterialBidi.h */; };
+		A05674AC4B706EE9150145F65742133D /* MDCTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 660A1445A1143F59585DB137E721E9ED /* MDCTabBarView.m */; };
+		A49CB9720E32EEDD6E24066CD9D28B48 /* MDCTabBarViewUnderlineIndicatorTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = F22519EF73A2CE8116FFD59B28972019 /* MDCTabBarViewUnderlineIndicatorTemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD4B76E931F1C9D8CAB03126F197A706 /* CAMediaTimingFunction+MDCAnimationTiming.h in Headers */ = {isa = PBXBuildFile; fileRef = 4245985C0A2EB83288A6FC73D0A857C5 /* CAMediaTimingFunction+MDCAnimationTiming.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3C05D2220B8BD7F1BEB1E9CD33C79A2 /* MaterialAnimationTiming.h in Headers */ = {isa = PBXBuildFile; fileRef = 4977A1B695AB974F1ECFEE9E044D145F /* MaterialAnimationTiming.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF7F9976FA80C821BC13E58E30E94B5B /* MDFRTL.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D8DB60EB71B7A65D0B5FEB7C9F6C18 /* MDFRTL.m */; };
+		C026AACCF5AAE9383719259AB0385ABA /* MDCTabBarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 4511A6F28D4716D2B6CB4EA059C1AF40 /* MDCTabBarItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C033F3E94355E90147C197D165E7DEE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C0CEDA33E6C97E16E38BD3767252D0EF /* MDCTabBarViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BE48342F18B6917ED3DB5AE402ECDEA /* MDCTabBarViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C15276B2E1E4BE60EAE79F00A6C4A8CA /* MDCRippleTouchController.h in Headers */ = {isa = PBXBuildFile; fileRef = CB5696A185435D4E88BE7CE6FC8F01E0 /* MDCRippleTouchController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1AEA894CD5CA4AD85B75BD1B4156B4D /* CAMediaTimingFunction+MDCAnimationTiming.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A56FAFA1D2EBA70A756251A59674335 /* CAMediaTimingFunction+MDCAnimationTiming.m */; };
+		C51A35DBDDF7D0459D3FA95AAC0DA823 /* MDCTabBarViewCustomViewable.h in Headers */ = {isa = PBXBuildFile; fileRef = D5602F10D4DD2CBFA1A80DF6330183A9 /* MDCTabBarViewCustomViewable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C872E018E08E0FD0B30B386614AB0E43 /* UIImage+MaterialRTL.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 7AC77B71A639A76304CF48D760E92A90 /* UIImage+MaterialRTL.h */; };
+		CB10E0737DF6073C81C5516CDFC42C2E /* Pods-SimplePOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BEEFB7023D62333D656D4D26709926EC /* Pods-SimplePOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE0733B6D270E6F37BB4245717CD9769 /* MDCTabBarViewPrivateIndicatorContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D2A80264B0CDB7D5AEFCF4E8E922187 /* MDCTabBarViewPrivateIndicatorContext.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E42F1BF2AA42BABC24AC9ED4F85A18A7 /* MDCTabBarViewItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 357FAC557328516AE3C64ED290213CF7 /* MDCTabBarViewItemView.m */; };
+		E56C430EEEEAF6E39FF0942CCD78A061 /* UIView+MaterialRTL.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C93817C7FB3E845C39583117437EB92 /* UIView+MaterialRTL.h */; };
+		E8C7094547D5D8628D6EDEBE059D8545 /* MDCRippleView.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FB199254BB843465CD8192FEC25307 /* MDCRippleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E93D381C823D8345F2B001E874623273 /* MDCTabBarViewIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ABE484F3A9578B7A34A0E70D4C1F452 /* MDCTabBarViewIndicatorView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EA7105A608750EE015AB35445284358A /* MDCTabBarViewUnderlineIndicatorTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9CCC4E5DA343CB4C1CCFB5FAE6DC4D /* MDCTabBarViewUnderlineIndicatorTemplate.m */; };
+		EE8FDAAA83F6F7EDF5879C13CE46D96A /* MDCRippleTouchControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B2EDA8519333250DEDC0F24302FBFA6 /* MDCRippleTouchControllerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EED421A4E761598BD74CE77B6B05FF93 /* MaterialAvailability.h in Headers */ = {isa = PBXBuildFile; fileRef = CA4CBB13693D75F36B16EF660EF365F8 /* MaterialAvailability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F79BB053B93EAA4615356A8070922BEC /* MaterialRipple.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B6FDA1521CA7D3C4DFC699347233693 /* MaterialRipple.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F95134B340BDE8537CEDC91162AE776B /* UIImage+MaterialRTL.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AC77B71A639A76304CF48D760E92A90 /* UIImage+MaterialRTL.h */; };
+		FE02F0FA32B9C078B1A6F7E5AAA1F312 /* Pods-SimplePOS-SimplePOSUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFC590EDF5356EB60E4656FC259330C /* Pods-SimplePOS-SimplePOSUITests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1BA6F3D77D76E29B3EC401224F40B2EC /* PBXContainerItemProxy */ = {
+		07F9A2DD56A6BBCBB1F66CC3C83735D6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B4723B5744013DF08BE3A5FEAA286944;
-			remoteInfo = MaterialComponents;
+			remoteGlobalIDString = 55A01F8E987A6E2F7F0ED141A1ECA406;
+			remoteInfo = MDFInternationalization;
 		};
-		1CCC2E20A3571475E10E30E50A8EBE27 /* PBXContainerItemProxy */ = {
+		B3542F81E4A5AC26042832D0FD1B1890 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55A01F8E987A6E2F7F0ED141A1ECA406;
+			remoteInfo = MDFInternationalization;
+		};
+		B45EB6C7C78EF3A1B287B7F4E18A0BF6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 12BF217894327A2CBA9FEFA9C69C99C7;
 			remoteInfo = "Pods-SimplePOS";
 		};
-		423F4D3C6832738378D13EF461DEE435 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 55A01F8E987A6E2F7F0ED141A1ECA406;
-			remoteInfo = MDFInternationalization;
-		};
-		605EFD6533B521E57F316035DFD096BB /* PBXContainerItemProxy */ = {
+		C8033A8B2784CDE70B585F4A60638B38 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B4723B5744013DF08BE3A5FEAA286944;
 			remoteInfo = MaterialComponents;
 		};
-		A00A30030F324972996C62511C426FD3 /* PBXContainerItemProxy */ = {
+		CF1019A54D05069534E75D777F0108A7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 55A01F8E987A6E2F7F0ED141A1ECA406;
 			remoteInfo = MDFInternationalization;
 		};
-		F8E61655CD276A1B77567A71D85B3D6C /* PBXContainerItemProxy */ = {
+		F85A6D6CFF9AAD1A3D4E09A93FE5C9A7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 55A01F8E987A6E2F7F0ED141A1ECA406;
-			remoteInfo = MDFInternationalization;
+			remoteGlobalIDString = B4723B5744013DF08BE3A5FEAA286944;
+			remoteInfo = MaterialComponents;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		5405F5C995DBA5B33E4EFB753B1B0BFE /* Copy . Public Headers */ = {
+		85B3B64C90CFC972449F93DC4A812BBD /* Copy . Public Headers */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "$(PUBLIC_HEADERS_FOLDER_PATH)/.";
 			dstSubfolderSpec = 16;
 			files = (
-				404BB72D786970CA5255EDF4FE012F1C /* MDFInternationalization.h in Copy . Public Headers */,
-				616353A2412A8D17C8D3A98D6CBA467A /* MDFRTL.h in Copy . Public Headers */,
-				0E65DF85B20D41B7B0E35D8AEA0A6F71 /* NSLocale+MaterialRTL.h in Copy . Public Headers */,
-				E05B6E40B1C49970348A779BE13E7128 /* NSString+MaterialBidi.h in Copy . Public Headers */,
-				705D67D2572662A5109B07BCBF2DE0C1 /* UIImage+MaterialRTL.h in Copy . Public Headers */,
-				49F2A7BF643690BE07D1D8A98DD07569 /* UIView+MaterialRTL.h in Copy . Public Headers */,
+				64317603918517CB58BC50355BBD14F8 /* MDFInternationalization.h in Copy . Public Headers */,
+				7DB6497C9CC06CA922AC1152CE38CDAC /* MDFRTL.h in Copy . Public Headers */,
+				3DCCF761B72AB77C921C6347AD39D34E /* NSLocale+MaterialRTL.h in Copy . Public Headers */,
+				546594038A39C1C5480919C5C51FFF46 /* NSString+MaterialBidi.h in Copy . Public Headers */,
+				C872E018E08E0FD0B30B386614AB0E43 /* UIImage+MaterialRTL.h in Copy . Public Headers */,
+				8EFABEE2E3BAE5BD9B93C1B58A69A178 /* UIView+MaterialRTL.h in Copy . Public Headers */,
 			);
 			name = "Copy . Public Headers";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -164,7 +163,7 @@
 		19F38E9238FC39DA5CC382585CCFDFDB /* MaterialComponents.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MaterialComponents.modulemap; sourceTree = "<group>"; };
 		23328C83C37FA9AA38BEA3FD4B511017 /* UIView+MDCTimingFunction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MDCTimingFunction.h"; path = "components/AnimationTiming/src/UIView+MDCTimingFunction.h"; sourceTree = "<group>"; };
 		239BBFC1A034D40BF22DE4501B43574B /* UIView+MaterialRTL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MaterialRTL.m"; path = "Sources/UIView+MaterialRTL.m"; sourceTree = "<group>"; };
-		249A3B1AA4F200A3853C5C3C7EB022A5 /* Pods_SimplePOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SimplePOSTests.framework; path = "Pods-SimplePOSTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		249A3B1AA4F200A3853C5C3C7EB022A5 /* Pods_SimplePOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimplePOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		257BEB76680E4D2619B42B53963989BB /* Pods-SimplePOS-SimplePOSUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimplePOS-SimplePOSUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2916A3EB9DE5775CC50A053D5DD3EA5A /* MDCRippleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCRippleView.m; path = components/Ripple/src/MDCRippleView.m; sourceTree = "<group>"; };
 		2A709A27E40EAA288650AB9060DBE988 /* MDCRippleLayerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCRippleLayerDelegate.h; path = components/Ripple/src/private/MDCRippleLayerDelegate.h; sourceTree = "<group>"; };
@@ -173,13 +172,13 @@
 		3396DCE1B7A681D861D98A1D2C336612 /* NSLocale+MaterialRTL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLocale+MaterialRTL.h"; path = "Sources/NSLocale+MaterialRTL.h"; sourceTree = "<group>"; };
 		357FAC557328516AE3C64ED290213CF7 /* MDCTabBarViewItemView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTabBarViewItemView.m; path = components/Tabs/src/TabBarView/private/MDCTabBarViewItemView.m; sourceTree = "<group>"; };
 		395A9DF281D1C9B0B801375081F0DF85 /* MDCTabBarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTabBarView.h; path = components/Tabs/src/TabBarView/MDCTabBarView.h; sourceTree = "<group>"; };
-		3FC943BC716F3DBC354EF4DCCFD8DB47 /* Pods_SimplePOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SimplePOS.framework; path = "Pods-SimplePOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FC943BC716F3DBC354EF4DCCFD8DB47 /* Pods_SimplePOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimplePOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		40550ABB122219125B2A4F73DE38CA3E /* Pods-SimplePOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimplePOS-Info.plist"; sourceTree = "<group>"; };
 		412A479717E3DE39A5591AFEC5F5CFF7 /* MaterialComponents-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MaterialComponents-dummy.m"; sourceTree = "<group>"; };
 		41F1EE97792EB8D118856F129E9DD26B /* Pods-SimplePOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimplePOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4245985C0A2EB83288A6FC73D0A857C5 /* CAMediaTimingFunction+MDCAnimationTiming.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CAMediaTimingFunction+MDCAnimationTiming.h"; path = "components/AnimationTiming/src/CAMediaTimingFunction+MDCAnimationTiming.h"; sourceTree = "<group>"; };
 		4339E8C6D7D1C7D5CA5A824132A91715 /* Pods-SimplePOS-SimplePOSUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimplePOS-SimplePOSUITests-frameworks.sh"; sourceTree = "<group>"; };
-		44FE8DB360601E32288669BDEA04F8A3 /* Pods_SimplePOS_SimplePOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SimplePOS_SimplePOSUITests.framework; path = "Pods-SimplePOS-SimplePOSUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44FE8DB360601E32288669BDEA04F8A3 /* Pods_SimplePOS_SimplePOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimplePOS_SimplePOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4511A6F28D4716D2B6CB4EA059C1AF40 /* MDCTabBarItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTabBarItem.h; path = components/Tabs/src/TabBarView/MDCTabBarItem.h; sourceTree = "<group>"; };
 		47FAE662C93DCB75672E720CB12D709D /* Pods-SimplePOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimplePOS.debug.xcconfig"; sourceTree = "<group>"; };
 		492A309DCCBAD3D31CCCDBB054B6D6C6 /* Pods-SimplePOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimplePOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -193,7 +192,6 @@
 		4D4F6C9A17B6637B56F39168D49FB183 /* MDCStatefulRippleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCStatefulRippleView.h; path = components/Ripple/src/MDCStatefulRippleView.h; sourceTree = "<group>"; };
 		4DE9499430935453E52DAB5B27932CA5 /* MaterialMathDummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MaterialMathDummy.m; path = components/private/Math/src/MaterialMathDummy.m; sourceTree = "<group>"; };
 		4FAD7EF76FCCAD01E49B034A245DE1BA /* UIColor+MaterialBlending.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+MaterialBlending.m"; path = "components/private/Color/src/UIColor+MaterialBlending.m"; sourceTree = "<group>"; };
-		506E59D3B354DC607C110023AD20DD5D /* MDFInternationalization.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MDFInternationalization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		532E8589051EE7AE484A532E57522FD6 /* MDCTabBarViewIndicatorTemplate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTabBarViewIndicatorTemplate.h; path = components/Tabs/src/TabBarView/MDCTabBarViewIndicatorTemplate.h; sourceTree = "<group>"; };
 		56B5AFC891B8E733DF031492BD6017C0 /* Pods-SimplePOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimplePOS-acknowledgements.plist"; sourceTree = "<group>"; };
 		5BD800216F0C40C40C6C20CB0B606D7C /* MDCTabBarViewIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTabBarViewIndicatorView.m; path = components/Tabs/src/TabBarView/private/MDCTabBarViewIndicatorView.m; sourceTree = "<group>"; };
@@ -207,6 +205,7 @@
 		6CDD84B1F0DE7E2D8F946BD5FE5F5EC6 /* MDFInternationalization-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MDFInternationalization-umbrella.h"; sourceTree = "<group>"; };
 		7252FDEACBFE0791E90A96D81BA1BE13 /* Pods-SimplePOS-SimplePOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimplePOS-SimplePOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		72E0A804C1D7444F0BDFDFBE9393F9CA /* MDCRippleLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCRippleLayer.m; path = components/Ripple/src/private/MDCRippleLayer.m; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		75BC67C54B4919A748E15C484A0427E1 /* MaterialComponents-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MaterialComponents-umbrella.h"; sourceTree = "<group>"; };
 		765B15245B2C0EE7C0739CEE735579C6 /* Pods-SimplePOSTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SimplePOSTests.modulemap"; sourceTree = "<group>"; };
 		78BA216A10AE6815F470909961ECE524 /* Pods-SimplePOSTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimplePOSTests-umbrella.h"; sourceTree = "<group>"; };
@@ -221,14 +220,13 @@
 		8B2EDA8519333250DEDC0F24302FBFA6 /* MDCRippleTouchControllerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCRippleTouchControllerDelegate.h; path = components/Ripple/src/MDCRippleTouchControllerDelegate.h; sourceTree = "<group>"; };
 		8DE0630F47CCD557750F6FA2AEB41B56 /* NSLocale+MaterialRTL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLocale+MaterialRTL.m"; path = "Sources/NSLocale+MaterialRTL.m"; sourceTree = "<group>"; };
 		90AF79CDFE555D79C58CB0412F5C1492 /* MaterialComponents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MaterialComponents.release.xcconfig; sourceTree = "<group>"; };
-		9A2AC0B8BAC6EF061EBC28825653DF99 /* MDFInternationalization.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MDFInternationalization.framework; path = MDFInternationalization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A2AC0B8BAC6EF061EBC28825653DF99 /* MDFInternationalization.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MDFInternationalization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FA08BA9E852D425C269A8A7D3037F93 /* NSString+MaterialBidi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MaterialBidi.h"; path = "Sources/NSString+MaterialBidi.h"; sourceTree = "<group>"; };
 		A0FB199254BB843465CD8192FEC25307 /* MDCRippleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCRippleView.h; path = components/Ripple/src/MDCRippleView.h; sourceTree = "<group>"; };
-		A34157B3708EDB7D17422B3D92F591D2 /* MaterialComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MaterialComponents.framework; path = MaterialComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A34157B3708EDB7D17422B3D92F591D2 /* MaterialComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MaterialComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A78ED8D3F5D623ADC6E6153DB44D31CF /* MDCTabBarItemCustomViewing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTabBarItemCustomViewing.h; path = components/Tabs/src/TabBarView/MDCTabBarItemCustomViewing.h; sourceTree = "<group>"; };
 		ADFF5778E775BEDE2271908AB2096D02 /* MDCTabBarViewIndicatorAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTabBarViewIndicatorAttributes.h; path = components/Tabs/src/TabBarView/MDCTabBarViewIndicatorAttributes.h; sourceTree = "<group>"; };
-		B00129108FBE3BC8DB25433AF89FFE98 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		B502C26CF1428D4D0505046E3C6837D4 /* MDCMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCMath.h; path = components/private/Math/src/MDCMath.h; sourceTree = "<group>"; };
 		B8371BE8A2DFF47DBB36A960F94D51F0 /* MDCRippleTouchController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCRippleTouchController.m; path = components/Ripple/src/MDCRippleTouchController.m; sourceTree = "<group>"; };
 		BD117A7A95CD27753F6101A37575D219 /* Pods-SimplePOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimplePOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -263,44 +261,43 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1490EFBE3D12098236038EE118E8C2F9 /* Frameworks */ = {
+		7FDD4E81B4A8D524AE1EB089F1D02698 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CA042586B5F60178AA0BE7BFF47589A /* Foundation.framework in Frameworks */,
+				0A3D199BB16288962870E71621C5A13B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3D144A0DF252FD859A31DCE390D1295E /* Frameworks */ = {
+		A563BE445A159E73000F25A2BC3B940E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5BDF9A23987BB9BEF5AC0C26497D0D2 /* Foundation.framework in Frameworks */,
+				C033F3E94355E90147C197D165E7DEE0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		75D39AC2F79B8E13547C5DB39FA04EBD /* Frameworks */ = {
+		AA72A087B458B6EE36886A6338BBF583 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EED4F92CFFF91200DB32B028378075F2 /* Foundation.framework in Frameworks */,
-				1107F94D0DA0FB1C83306F1CA2F32F52 /* MDFInternationalization.framework in Frameworks */,
+				094D3E0C5014C9BB8AD6BFB7F86F9F59 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B2A983DEA609CF9A54E8F44FC60F6AB0 /* Frameworks */ = {
+		D7EE396AAE4484CE648F513705D066E9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F0D679F6FCC783ACD5B6E7BA83850C1 /* Foundation.framework in Frameworks */,
+				1308CA92AE26CA5FB07B037C8CCB9745 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B3155DD0A11C6F3E8CC8E042D0B4F361 /* Frameworks */ = {
+		F159F1D7A267A63CEB4618E98F99DDF9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				823A44AC43B3F70F8084C110981450DF /* Foundation.framework in Frameworks */,
+				8F1C9C86D0323D8C1F53969CBE99F80B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,6 +370,18 @@
 			name = Availability;
 			sourceTree = "<group>";
 		};
+		301D94C0579557F52D7D34130293DA04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A34157B3708EDB7D17422B3D92F591D2 /* MaterialComponents.framework */,
+				9A2AC0B8BAC6EF061EBC28825653DF99 /* MDFInternationalization.framework */,
+				3FC943BC716F3DBC354EF4DCCFD8DB47 /* Pods_SimplePOS.framework */,
+				44FE8DB360601E32288669BDEA04F8A3 /* Pods_SimplePOS_SimplePOSUITests.framework */,
+				249A3B1AA4F200A3853C5C3C7EB022A5 /* Pods_SimplePOSTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		4447F5872689DD303A42B4E53329DEA5 /* Ripple */ = {
 			isa = PBXGroup;
 			children = (
@@ -392,16 +401,12 @@
 			name = Ripple;
 			sourceTree = "<group>";
 		};
-		671AD52EF365F0FDA003BA1FB5A746ED /* Products */ = {
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				A34157B3708EDB7D17422B3D92F591D2 /* MaterialComponents.framework */,
-				9A2AC0B8BAC6EF061EBC28825653DF99 /* MDFInternationalization.framework */,
-				3FC943BC716F3DBC354EF4DCCFD8DB47 /* Pods_SimplePOS.framework */,
-				44FE8DB360601E32288669BDEA04F8A3 /* Pods_SimplePOS_SimplePOSUITests.framework */,
-				249A3B1AA4F200A3853C5C3C7EB022A5 /* Pods_SimplePOSTests.framework */,
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
-			name = Products;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		687ECCF996973D4C3F599B2F4B79BA7F /* private */ = {
@@ -421,15 +426,6 @@
 				E622C8BE8A9E81E4C048EFDE5BD875DC /* Pods-SimplePOSTests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		94245E48C77C3E85F99CF283511A7DA2 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				506E59D3B354DC607C110023AD20DD5D /* MDFInternationalization.framework */,
-				DEE3FA5673036802C68408C6927B6159 /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		9CD57F8F0EF163E4099952876ACE426B /* Pods */ = {
@@ -497,7 +493,6 @@
 				1E5C7E20F7208639E8367FCD5389276D /* Support Files */,
 				18CA571B6B4B225B122008485507B934 /* Tabs+TabBarView */,
 			);
-			name = MaterialComponents;
 			path = MaterialComponents;
 			sourceTree = "<group>";
 		};
@@ -517,7 +512,6 @@
 				239BBFC1A034D40BF22DE4501B43574B /* UIView+MaterialRTL.m */,
 				0F0887D2079F87CF1E65F2863B513C44 /* Support Files */,
 			);
-			name = MDFInternationalization;
 			path = MDFInternationalization;
 			sourceTree = "<group>";
 		};
@@ -525,19 +519,19 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				94245E48C77C3E85F99CF283511A7DA2 /* Frameworks */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				9CD57F8F0EF163E4099952876ACE426B /* Pods */,
-				671AD52EF365F0FDA003BA1FB5A746ED /* Products */,
+				301D94C0579557F52D7D34130293DA04 /* Products */,
 				699F2E91EB0612616F3E92BC866ECB44 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		DEE3FA5673036802C68408C6927B6159 /* iOS */ = {
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B00129108FBE3BC8DB25433AF89FFE98 /* Foundation.framework */,
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
-			name = iOS;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		E622C8BE8A9E81E4C048EFDE5BD875DC /* Pods-SimplePOSTests */ = {
@@ -581,80 +575,80 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		417BACABC8C3071FEB8AD52245177213 /* Headers */ = {
+		16A2FA289156B248A620C8EA20686D13 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D033B38FCDE5389CC620221947FD735 /* Pods-SimplePOS-umbrella.h in Headers */,
+				20009A06180B77B7F161D55A5F01109C /* Pods-SimplePOS-SimplePOSUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		85946BF5A9569EF38B67769869944C24 /* Headers */ = {
+		82946A5BB19511200C787055222CC155 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EEE80DDADB8FC9D8FAC9CDCF3E8C9DF /* Pods-SimplePOS-SimplePOSUITests-umbrella.h in Headers */,
+				1062EDD2C5C3B8D7A91592F639600D74 /* MDFInternationalization.h in Headers */,
+				1DCF9A800AE274F89C29078A6E212B7D /* MDFInternationalization-umbrella.h in Headers */,
+				68C81A493C4CD3F1D8425C3C12B6F1E3 /* MDFRTL.h in Headers */,
+				3CE30BDD410305F4D3C8C13D12507A4A /* NSLocale+MaterialRTL.h in Headers */,
+				9F64E84B54A721D525FB5FEB6B04AD92 /* NSString+MaterialBidi.h in Headers */,
+				F95134B340BDE8537CEDC91162AE776B /* UIImage+MaterialRTL.h in Headers */,
+				E56C430EEEEAF6E39FF0942CCD78A061 /* UIView+MaterialRTL.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		86A734987833CDA8D4C1315A4286BD2A /* Headers */ = {
+		85461FDDF2A86F7407D171AA00E60B84 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B3A919809DEA58CFBD52A52DB2D4377 /* MDFInternationalization-umbrella.h in Headers */,
-				7E9F6F881DAB28D4036EED279A7024A1 /* MDFInternationalization.h in Headers */,
-				59FEEE094E86A7D4EF1F46BBF43DF08B /* MDFRTL.h in Headers */,
-				E2C46BBD4738FBC64311ADF446BD8BA2 /* NSLocale+MaterialRTL.h in Headers */,
-				727E88B9FC5A5B4BA4E8D3166EA97CD1 /* NSString+MaterialBidi.h in Headers */,
-				BFE40124272C7F2EF656F0F093FB15B6 /* UIImage+MaterialRTL.h in Headers */,
-				70884666165CB37091CC4E6118D1C753 /* UIView+MaterialRTL.h in Headers */,
+				CB10E0737DF6073C81C5516CDFC42C2E /* Pods-SimplePOS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8EC34435DC0022DE20A586C8AFE2E987 /* Headers */ = {
+		C8576083077C5CADAA7273234DF95878 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B78DCFCF104BA4DB6C8F65C542CF35B6 /* CAMediaTimingFunction+MDCAnimationTiming.h in Headers */,
-				AB2AE0F1CF50B54C7B2EF3B6F49FB38C /* MaterialAnimationTiming.h in Headers */,
-				F5B3F7921260F93A00002B46943CB153 /* MaterialAvailability.h in Headers */,
-				372C9F74AA34D460034194811FF98E1D /* MaterialColor.h in Headers */,
-				61D51450D582ACD9A3A51A86AAE86884 /* MaterialComponents-umbrella.h in Headers */,
-				E774447385D9C64A5F8FBC1D25C0FC04 /* MaterialMath.h in Headers */,
-				48DED7C521BB7D4424F5C3B032ED6429 /* MaterialRipple.h in Headers */,
-				789C5A58EB17BC93D196856FE2235BDC /* MaterialTabs+TabBarView.h in Headers */,
-				9C0CF099AAF89BD200C192621146ED94 /* MDCAvailability.h in Headers */,
-				C3A8031AF3C66BEAA20F976EB4A43DF8 /* MDCMath.h in Headers */,
-				81D30866E902C49BACA3B9F6F51CE146 /* MDCRippleLayer.h in Headers */,
-				CCEB5E5DB2D7EFB24EF631F8BCD03B12 /* MDCRippleLayerDelegate.h in Headers */,
-				82B29C3574222A39EBC85895FAE5B0AF /* MDCRippleTouchController.h in Headers */,
-				C70FE2436955F1DC4E11016DEDE62F71 /* MDCRippleTouchControllerDelegate.h in Headers */,
-				534B236F7D140459305D32AC66D42755 /* MDCRippleView.h in Headers */,
-				CA0A227217A7EDE7578ACDBCD16F8039 /* MDCRippleViewDelegate.h in Headers */,
-				142D66D0CAD01BBF9AF62BC4F8ED2A0D /* MDCStatefulRippleView.h in Headers */,
-				AF924AA517C503156DAEC1C64C5A962F /* MDCTabBarItem.h in Headers */,
-				96FA665A37A4C8D6594DC05FD8CC697A /* MDCTabBarItemCustomViewing.h in Headers */,
-				DB5001A60753025887BAA524D08EAD02 /* MDCTabBarView.h in Headers */,
-				D360FA692EDB73B0FA1CEEACBE57A6E3 /* MDCTabBarViewCustomViewable.h in Headers */,
-				E6CD26FDF16CFEB2A1279B26CC493490 /* MDCTabBarViewDelegate.h in Headers */,
-				8B7309DE51303B5A7C425CD6371F0A29 /* MDCTabBarViewIndicatorAttributes.h in Headers */,
-				E67940DF9AC160F31FF5266FCE0DA4BC /* MDCTabBarViewIndicatorContext.h in Headers */,
-				631C711D925BAE4BB9FE0C6E0547A367 /* MDCTabBarViewIndicatorTemplate.h in Headers */,
-				746871A60E38C345E084F2A3D113C19D /* MDCTabBarViewIndicatorView.h in Headers */,
-				FA0605A6D3649AF7E0EC8C583F547595 /* MDCTabBarViewItemView.h in Headers */,
-				AFDB48A60BF69EB9E4A0154EEBE73B57 /* MDCTabBarViewPrivateIndicatorContext.h in Headers */,
-				A30F29297077A70EF86CF16338E50D59 /* MDCTabBarViewUnderlineIndicatorTemplate.h in Headers */,
-				9F9B68783E95B7C0388E76915F7F0359 /* UIColor+MaterialBlending.h in Headers */,
-				785FC1B5D857385A94263DB509231D99 /* UIColor+MaterialDynamic.h in Headers */,
-				C579C01FCA45038B5F05B629BFD239BA /* UIView+MDCTimingFunction.h in Headers */,
+				14EE04DD848BFBBF915B09ED834A42F9 /* Pods-SimplePOSTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C6BDCBFBBBA59D96FD2018A2718D9D2A /* Headers */ = {
+		C8E0610BB63AA9449A4A5D615E344733 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B35F11C28DD653D14BAE958C4D420CC /* Pods-SimplePOSTests-umbrella.h in Headers */,
+				AD4B76E931F1C9D8CAB03126F197A706 /* CAMediaTimingFunction+MDCAnimationTiming.h in Headers */,
+				B3C05D2220B8BD7F1BEB1E9CD33C79A2 /* MaterialAnimationTiming.h in Headers */,
+				EED421A4E761598BD74CE77B6B05FF93 /* MaterialAvailability.h in Headers */,
+				97BF6C8F450E536A060E397E9E95E52F /* MaterialColor.h in Headers */,
+				6E9C62F78CEC075358A18B6C62DAE284 /* MaterialComponents-umbrella.h in Headers */,
+				7ACDC60CC727AAC7BFBCAB1CFA8529BF /* MaterialMath.h in Headers */,
+				F79BB053B93EAA4615356A8070922BEC /* MaterialRipple.h in Headers */,
+				9BF165F2AB82EC476C70F7A39263BC4A /* MaterialTabs+TabBarView.h in Headers */,
+				7F6777F23ED3C345C1E95094019D80CD /* MDCAvailability.h in Headers */,
+				3D54C4394606F85FE98D0B6DB5F3DF36 /* MDCMath.h in Headers */,
+				093772C37079F05FD43353DD53590C97 /* MDCRippleLayer.h in Headers */,
+				093C7D0D030FBAC56A72D9E5D14C14BB /* MDCRippleLayerDelegate.h in Headers */,
+				C15276B2E1E4BE60EAE79F00A6C4A8CA /* MDCRippleTouchController.h in Headers */,
+				EE8FDAAA83F6F7EDF5879C13CE46D96A /* MDCRippleTouchControllerDelegate.h in Headers */,
+				E8C7094547D5D8628D6EDEBE059D8545 /* MDCRippleView.h in Headers */,
+				3510E37C5DDABFEF540B58C3F481BBC9 /* MDCRippleViewDelegate.h in Headers */,
+				075D8CB5294DC8511124F78A75EAF42E /* MDCStatefulRippleView.h in Headers */,
+				C026AACCF5AAE9383719259AB0385ABA /* MDCTabBarItem.h in Headers */,
+				3C33D821A07B134C870DEC30FFB68AC6 /* MDCTabBarItemCustomViewing.h in Headers */,
+				8719911277787D6EA6EEA6BEFC20C006 /* MDCTabBarView.h in Headers */,
+				C51A35DBDDF7D0459D3FA95AAC0DA823 /* MDCTabBarViewCustomViewable.h in Headers */,
+				C0CEDA33E6C97E16E38BD3767252D0EF /* MDCTabBarViewDelegate.h in Headers */,
+				59CDBA9C3CE3ED511CD037257CEA1875 /* MDCTabBarViewIndicatorAttributes.h in Headers */,
+				44A33649A855799A4C8613D8ECB1E1C8 /* MDCTabBarViewIndicatorContext.h in Headers */,
+				0DE02EAD9DF62BA40CCF633A4CF7FB08 /* MDCTabBarViewIndicatorTemplate.h in Headers */,
+				E93D381C823D8345F2B001E874623273 /* MDCTabBarViewIndicatorView.h in Headers */,
+				0AC1DC46A0F3447956385F5DAAB1C37F /* MDCTabBarViewItemView.h in Headers */,
+				CE0733B6D270E6F37BB4245717CD9769 /* MDCTabBarViewPrivateIndicatorContext.h in Headers */,
+				A49CB9720E32EEDD6E24066CD9D28B48 /* MDCTabBarViewUnderlineIndicatorTemplate.h in Headers */,
+				38A8BACEA0764095E2E33E9E6D4ACA53 /* UIColor+MaterialBlending.h in Headers */,
+				4BC1AE6845D06CAB4735A165C302F291 /* UIColor+MaterialDynamic.h in Headers */,
+				40760A4565CD5F4AD878076AA342F0AB /* UIView+MDCTimingFunction.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -663,52 +657,53 @@
 /* Begin PBXNativeTarget section */
 		12BF217894327A2CBA9FEFA9C69C99C7 /* Pods-SimplePOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 907986841A1283C01BDFA4F57C72C16F /* Build configuration list for PBXNativeTarget "Pods-SimplePOS" */;
+			buildConfigurationList = 36CFD4E526549945C9318522E6DF1F08 /* Build configuration list for PBXNativeTarget "Pods-SimplePOS" */;
 			buildPhases = (
-				417BACABC8C3071FEB8AD52245177213 /* Headers */,
-				23861FAF6C28D2BD98F1D714085F09B4 /* Sources */,
-				3D144A0DF252FD859A31DCE390D1295E /* Frameworks */,
-				F018FCD2F81067770D5FB70F09CF9D34 /* Resources */,
+				85461FDDF2A86F7407D171AA00E60B84 /* Headers */,
+				F47F69935E177B8E668DA8EF0BF7918B /* Sources */,
+				D7EE396AAE4484CE648F513705D066E9 /* Frameworks */,
+				099B2D86807B71059225BAAD7F8D8BF4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				799FD3B17784751163B1403790B405F0 /* PBXTargetDependency */,
-				8EE336A5842C91411F60A1482CBD290E /* PBXTargetDependency */,
+				7EEE86BE38FF039863889E6D8D0573B8 /* PBXTargetDependency */,
+				15FF1FA06C33276739247A88A9E4633C /* PBXTargetDependency */,
 			);
 			name = "Pods-SimplePOS";
-			productName = "Pods-SimplePOS";
+			productName = Pods_SimplePOS;
 			productReference = 3FC943BC716F3DBC354EF4DCCFD8DB47 /* Pods_SimplePOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		299471C7A93DB0EE6EDE916F019BB8A2 /* Pods-SimplePOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 49259435BC3E75E36546C16A616F62BA /* Build configuration list for PBXNativeTarget "Pods-SimplePOSTests" */;
+			buildConfigurationList = 1FC7F7F6207D16E354025608FCC54923 /* Build configuration list for PBXNativeTarget "Pods-SimplePOSTests" */;
 			buildPhases = (
-				C6BDCBFBBBA59D96FD2018A2718D9D2A /* Headers */,
-				82102599AE4A17774B6014E1DA84549A /* Sources */,
-				B2A983DEA609CF9A54E8F44FC60F6AB0 /* Frameworks */,
-				2FEB5C16DE8BC0966240218E753521DE /* Resources */,
+				C8576083077C5CADAA7273234DF95878 /* Headers */,
+				20DCE95BE3865C25C7F053E3931FF0D9 /* Sources */,
+				7FDD4E81B4A8D524AE1EB089F1D02698 /* Frameworks */,
+				F7E7807532DF0AED24E93A15EF43470C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4AC6894AA263E02474C9E9AF8A4C73B0 /* PBXTargetDependency */,
+				CE57601435F7E8221669D77C36965CE9 /* PBXTargetDependency */,
 			);
 			name = "Pods-SimplePOSTests";
-			productName = "Pods-SimplePOSTests";
+			productName = Pods_SimplePOSTests;
 			productReference = 249A3B1AA4F200A3853C5C3C7EB022A5 /* Pods_SimplePOSTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		55A01F8E987A6E2F7F0ED141A1ECA406 /* MDFInternationalization */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2C4532E54CCEE471FB9DE2C4C55EC31B /* Build configuration list for PBXNativeTarget "MDFInternationalization" */;
+			buildConfigurationList = 29235CC975477CF0AE111D8533A857C9 /* Build configuration list for PBXNativeTarget "MDFInternationalization" */;
 			buildPhases = (
-				86A734987833CDA8D4C1315A4286BD2A /* Headers */,
-				5405F5C995DBA5B33E4EFB753B1B0BFE /* Copy . Public Headers */,
-				53832DDCE73FE481BECB99750BD3D1E4 /* Sources */,
-				B3155DD0A11C6F3E8CC8E042D0B4F361 /* Frameworks */,
-				B78227B32E7052BE4A76A56B53FF00FE /* Resources */,
+				82946A5BB19511200C787055222CC155 /* Headers */,
+				85B3B64C90CFC972449F93DC4A812BBD /* Copy . Public Headers */,
+				75C42EE808FFAC35041568CFE92847AD /* Sources */,
+				A563BE445A159E73000F25A2BC3B940E /* Frameworks */,
+				AED6EDF087DBE63D55C51AEE20F3373F /* Resources */,
+				498506168756522E454E1B48EC2886A7 /* Create Symlinks to Header Folders */,
 			);
 			buildRules = (
 			);
@@ -721,37 +716,37 @@
 		};
 		83F1E85B0F0102EFA7DE9A895697AB81 /* Pods-SimplePOS-SimplePOSUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 86DCE5EA96D7A99EBC75CC7810CBB5CA /* Build configuration list for PBXNativeTarget "Pods-SimplePOS-SimplePOSUITests" */;
+			buildConfigurationList = 2D7DE2CD2FF5C5642FE76D10276FD8CD /* Build configuration list for PBXNativeTarget "Pods-SimplePOS-SimplePOSUITests" */;
 			buildPhases = (
-				85946BF5A9569EF38B67769869944C24 /* Headers */,
-				9FB6BC856BD4492176FFAF085A4EE124 /* Sources */,
-				1490EFBE3D12098236038EE118E8C2F9 /* Frameworks */,
-				EA3B32F4DD5DBBACA26E3AAABCDC82D3 /* Resources */,
+				16A2FA289156B248A620C8EA20686D13 /* Headers */,
+				7C1716D0461C515D92659CCA37775046 /* Sources */,
+				F159F1D7A267A63CEB4618E98F99DDF9 /* Frameworks */,
+				FFA0D7AE18C7EF1B5F5F91B7A08F4919 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				257E01A76B32B7DF399753A53BAF2CED /* PBXTargetDependency */,
-				F945D5875D3C6C3B669476F464B7BA01 /* PBXTargetDependency */,
+				3BFCFB381421AA2BAEC356FEF5C8CD58 /* PBXTargetDependency */,
+				FC9D8AA964B2A362026F5A1B95E56EF7 /* PBXTargetDependency */,
 			);
 			name = "Pods-SimplePOS-SimplePOSUITests";
-			productName = "Pods-SimplePOS-SimplePOSUITests";
+			productName = Pods_SimplePOS_SimplePOSUITests;
 			productReference = 44FE8DB360601E32288669BDEA04F8A3 /* Pods_SimplePOS_SimplePOSUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B4723B5744013DF08BE3A5FEAA286944 /* MaterialComponents */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BC99951F1E99F5DC31CE5E517990CE34 /* Build configuration list for PBXNativeTarget "MaterialComponents" */;
+			buildConfigurationList = 1C5AFB46AAA61CA93C5F3EE9D577B3B7 /* Build configuration list for PBXNativeTarget "MaterialComponents" */;
 			buildPhases = (
-				8EC34435DC0022DE20A586C8AFE2E987 /* Headers */,
-				5421EECDE69B6A87F85BF37C94A9229D /* Sources */,
-				75D39AC2F79B8E13547C5DB39FA04EBD /* Frameworks */,
-				52BA318DA036C51A6A03BF4D9206D2F0 /* Resources */,
+				C8E0610BB63AA9449A4A5D615E344733 /* Headers */,
+				ADEAE4AB6BBE63C2E81DE96768D67ED2 /* Sources */,
+				AA72A087B458B6EE36886A6338BBF583 /* Frameworks */,
+				82AC58EBE040F907BF212D15C25138BA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				973A7CD36CCB924B36F9520FA5270C38 /* PBXTargetDependency */,
+				8FE7BB719D468AF0CC9FBC4D0EE3F74D /* PBXTargetDependency */,
 			);
 			name = MaterialComponents;
 			productName = MaterialComponents;
@@ -764,19 +759,19 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 671AD52EF365F0FDA003BA1FB5A746ED /* Products */;
+			productRefGroup = 301D94C0579557F52D7D34130293DA04 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -790,35 +785,35 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2FEB5C16DE8BC0966240218E753521DE /* Resources */ = {
+		099B2D86807B71059225BAAD7F8D8BF4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		52BA318DA036C51A6A03BF4D9206D2F0 /* Resources */ = {
+		82AC58EBE040F907BF212D15C25138BA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B78227B32E7052BE4A76A56B53FF00FE /* Resources */ = {
+		AED6EDF087DBE63D55C51AEE20F3373F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA3B32F4DD5DBBACA26E3AAABCDC82D3 /* Resources */ = {
+		F7E7807532DF0AED24E93A15EF43470C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F018FCD2F81067770D5FB70F09CF9D34 /* Resources */ = {
+		FFA0D7AE18C7EF1B5F5F91B7A08F4919 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -827,116 +822,137 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		498506168756522E454E1B48EC2886A7 /* Create Symlinks to Header Folders */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Create Symlinks to Header Folders";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd \"$CONFIGURATION_BUILD_DIR/$WRAPPER_NAME\" || exit 1\nif [ ! -d Versions ]; then\n  # Not a versioned framework, so no need to do anything\n  exit 0\nfi\n\npublic_path=\"${PUBLIC_HEADERS_FOLDER_PATH#$CONTENTS_FOLDER_PATH/}\"\nif [ ! -f \"$public_path\" ]; then\n  ln -fs \"${PUBLIC_HEADERS_FOLDER_PATH#$WRAPPER_NAME/}\" \"$public_path\"\nfi\n\nprivate_path=\"${PRIVATE_HEADERS_FOLDER_PATH#$CONTENTS_FOLDER_PATH/}\"\nif [ ! -f \"$private_path\" ]; then\n  ln -fs \"${PRIVATE_HEADERS_FOLDER_PATH#$WRAPPER_NAME/}\" \"$private_path\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		23861FAF6C28D2BD98F1D714085F09B4 /* Sources */ = {
+		20DCE95BE3865C25C7F053E3931FF0D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCA1019018E1E95726F11B965EDA3A78 /* Pods-SimplePOS-dummy.m in Sources */,
+				2DF04D630778C46810D82FA10F1DA545 /* Pods-SimplePOSTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		53832DDCE73FE481BECB99750BD3D1E4 /* Sources */ = {
+		75C42EE808FFAC35041568CFE92847AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69E446114D2DCC1F837276F4E5F80FF5 /* MDFInternationalization-dummy.m in Sources */,
-				F237FC85B20831AB3FF3F1FC00BE8D00 /* MDFRTL.m in Sources */,
-				5B56861CABF2114323AC0D83157C1BE0 /* NSLocale+MaterialRTL.m in Sources */,
-				D1F9052C6AFDEDAB4C0E8DAB77B0E9D9 /* NSString+MaterialBidi.m in Sources */,
-				44A6D2E4EB94C09EDAE2BF654418AC9E /* UIImage+MaterialRTL.m in Sources */,
-				87EA430667A4006F6574575F4CDFAFD9 /* UIView+MaterialRTL.m in Sources */,
+				25ABCCB506CD51393434BE44F446AD5F /* MDFInternationalization-dummy.m in Sources */,
+				BF7F9976FA80C821BC13E58E30E94B5B /* MDFRTL.m in Sources */,
+				8C050C985EF60CCC3B9E25050BE20F3E /* NSLocale+MaterialRTL.m in Sources */,
+				124EEAE22B8077371D55FDB1AC4F4D30 /* NSString+MaterialBidi.m in Sources */,
+				03219B99BEEC9AB447188784DFDF4E19 /* UIImage+MaterialRTL.m in Sources */,
+				984167BC563C943B94B43A01DECBEAB0 /* UIView+MaterialRTL.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5421EECDE69B6A87F85BF37C94A9229D /* Sources */ = {
+		7C1716D0461C515D92659CCA37775046 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				783FC6396962F72DE1073EF516C6D7F6 /* CAMediaTimingFunction+MDCAnimationTiming.m in Sources */,
-				3CE75475CF42F46FFF98808544D5EC6D /* MaterialComponents-dummy.m in Sources */,
-				16AFB6CE16F53E9AC60C2FFC374810C6 /* MaterialMathDummy.m in Sources */,
-				7BFE28AA14878972988D67723481E6FE /* MDCRippleLayer.m in Sources */,
-				896A6ECBE3B00024F2EC5349871EBB79 /* MDCRippleTouchController.m in Sources */,
-				93F0AC25C3E54B95F363C862F54D9CC7 /* MDCRippleView.m in Sources */,
-				16612C7CA54B20E62088112F08802E3C /* MDCStatefulRippleView.m in Sources */,
-				3CD18FF60DD572616888EE1AAEF24306 /* MDCTabBarItem.m in Sources */,
-				386BD7D3CCB0A2CE39227770944C31B3 /* MDCTabBarView.m in Sources */,
-				3F0D2F3E41CA36B23A351277E075F18C /* MDCTabBarViewIndicatorAttributes.m in Sources */,
-				EAD4C3EE6AC618E7A934902950EDC48E /* MDCTabBarViewIndicatorView.m in Sources */,
-				7D1DCE9F17532596776B25F1DCA4C323 /* MDCTabBarViewItemView.m in Sources */,
-				FE2F2E96999E0F555A39D2922E927AE1 /* MDCTabBarViewPrivateIndicatorContext.m in Sources */,
-				1EEBFCC786C3E5DE001B07578275797D /* MDCTabBarViewUnderlineIndicatorTemplate.m in Sources */,
-				AD25CF42FD881D4D6266CE3EFDF36742 /* UIColor+MaterialBlending.m in Sources */,
-				94E21A4DCF09256B287E8D172EC1B9CC /* UIColor+MaterialDynamic.m in Sources */,
-				DF9D7E3658C1C90F381CFB90A7328478 /* UIView+MDCTimingFunction.m in Sources */,
+				FE02F0FA32B9C078B1A6F7E5AAA1F312 /* Pods-SimplePOS-SimplePOSUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		82102599AE4A17774B6014E1DA84549A /* Sources */ = {
+		ADEAE4AB6BBE63C2E81DE96768D67ED2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0F2F340AC3FCA061F7182FB7EA04706 /* Pods-SimplePOSTests-dummy.m in Sources */,
+				C1AEA894CD5CA4AD85B75BD1B4156B4D /* CAMediaTimingFunction+MDCAnimationTiming.m in Sources */,
+				66F62B0BFCEBC2857813CE8E3510121F /* MaterialComponents-dummy.m in Sources */,
+				7CEC72A2A8B2C46B452AF126DC5747FC /* MaterialMathDummy.m in Sources */,
+				366872E2C1E10154C8E80DD5C8B28053 /* MDCRippleLayer.m in Sources */,
+				1B62355E6352AD25E1294662009D17EE /* MDCRippleTouchController.m in Sources */,
+				2B649B86C09D3AEF3C832DE7FBA405C4 /* MDCRippleView.m in Sources */,
+				472B950EC1C0CA1C6CE6B44DA1B6F8B1 /* MDCStatefulRippleView.m in Sources */,
+				3373AD4A25BC15D811135A04B4D3C862 /* MDCTabBarItem.m in Sources */,
+				A05674AC4B706EE9150145F65742133D /* MDCTabBarView.m in Sources */,
+				92D9E9B33C69CA7A68491C70E5C107BC /* MDCTabBarViewIndicatorAttributes.m in Sources */,
+				0274A4D9A05A66145A3FEDA5877BB310 /* MDCTabBarViewIndicatorView.m in Sources */,
+				E42F1BF2AA42BABC24AC9ED4F85A18A7 /* MDCTabBarViewItemView.m in Sources */,
+				8B71F4CD34FADC8D66BEB74E9BB736E1 /* MDCTabBarViewPrivateIndicatorContext.m in Sources */,
+				EA7105A608750EE015AB35445284358A /* MDCTabBarViewUnderlineIndicatorTemplate.m in Sources */,
+				3629489576D74E6AE0B958D6D5B98557 /* UIColor+MaterialBlending.m in Sources */,
+				40C6268949A0B899BE9CAC81BC7B69A3 /* UIColor+MaterialDynamic.m in Sources */,
+				5CD4B754D480A590452C25C30BBE0156 /* UIView+MDCTimingFunction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9FB6BC856BD4492176FFAF085A4EE124 /* Sources */ = {
+		F47F69935E177B8E668DA8EF0BF7918B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01C4D8EA7B95ABED2FCE6A50BD4654F8 /* Pods-SimplePOS-SimplePOSUITests-dummy.m in Sources */,
+				3F13161A6DE9B055CE2DC4170BFB8653 /* Pods-SimplePOS-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		257E01A76B32B7DF399753A53BAF2CED /* PBXTargetDependency */ = {
+		15FF1FA06C33276739247A88A9E4633C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MaterialComponents;
+			target = B4723B5744013DF08BE3A5FEAA286944 /* MaterialComponents */;
+			targetProxy = F85A6D6CFF9AAD1A3D4E09A93FE5C9A7 /* PBXContainerItemProxy */;
+		};
+		3BFCFB381421AA2BAEC356FEF5C8CD58 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MDFInternationalization;
 			target = 55A01F8E987A6E2F7F0ED141A1ECA406 /* MDFInternationalization */;
-			targetProxy = F8E61655CD276A1B77567A71D85B3D6C /* PBXContainerItemProxy */;
+			targetProxy = 07F9A2DD56A6BBCBB1F66CC3C83735D6 /* PBXContainerItemProxy */;
 		};
-		4AC6894AA263E02474C9E9AF8A4C73B0 /* PBXTargetDependency */ = {
+		7EEE86BE38FF039863889E6D8D0573B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MDFInternationalization;
+			target = 55A01F8E987A6E2F7F0ED141A1ECA406 /* MDFInternationalization */;
+			targetProxy = CF1019A54D05069534E75D777F0108A7 /* PBXContainerItemProxy */;
+		};
+		8FE7BB719D468AF0CC9FBC4D0EE3F74D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MDFInternationalization;
+			target = 55A01F8E987A6E2F7F0ED141A1ECA406 /* MDFInternationalization */;
+			targetProxy = B3542F81E4A5AC26042832D0FD1B1890 /* PBXContainerItemProxy */;
+		};
+		CE57601435F7E8221669D77C36965CE9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-SimplePOS";
 			target = 12BF217894327A2CBA9FEFA9C69C99C7 /* Pods-SimplePOS */;
-			targetProxy = 1CCC2E20A3571475E10E30E50A8EBE27 /* PBXContainerItemProxy */;
+			targetProxy = B45EB6C7C78EF3A1B287B7F4E18A0BF6 /* PBXContainerItemProxy */;
 		};
-		799FD3B17784751163B1403790B405F0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MDFInternationalization;
-			target = 55A01F8E987A6E2F7F0ED141A1ECA406 /* MDFInternationalization */;
-			targetProxy = 423F4D3C6832738378D13EF461DEE435 /* PBXContainerItemProxy */;
-		};
-		8EE336A5842C91411F60A1482CBD290E /* PBXTargetDependency */ = {
+		FC9D8AA964B2A362026F5A1B95E56EF7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MaterialComponents;
 			target = B4723B5744013DF08BE3A5FEAA286944 /* MaterialComponents */;
-			targetProxy = 605EFD6533B521E57F316035DFD096BB /* PBXContainerItemProxy */;
-		};
-		973A7CD36CCB924B36F9520FA5270C38 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MDFInternationalization;
-			target = 55A01F8E987A6E2F7F0ED141A1ECA406 /* MDFInternationalization */;
-			targetProxy = A00A30030F324972996C62511C426FD3 /* PBXContainerItemProxy */;
-		};
-		F945D5875D3C6C3B669476F464B7BA01 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MaterialComponents;
-			target = B4723B5744013DF08BE3A5FEAA286944 /* MaterialComponents */;
-			targetProxy = 1BA6F3D77D76E29B3EC401224F40B2EC /* PBXContainerItemProxy */;
+			targetProxy = C8033A8B2784CDE70B585F4A60638B38 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		009CD8FF32CE6DAEBC61CC4F131FB898 /* Release */ = {
+		02AC12E87A9E266A73A099ED4F30393E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90AF79CDFE555D79C58CB0412F5C1492 /* MaterialComponents.release.xcconfig */;
+			baseConfigurationReference = E355D92A3826599674DBABB3A28815BC /* Pods-SimplePOS-SimplePOSUITests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -945,22 +961,23 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MaterialComponents/MaterialComponents-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MaterialComponents/MaterialComponents-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SimplePOS-SimplePOSUITests/Pods-SimplePOS-SimplePOSUITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/MaterialComponents/MaterialComponents.modulemap";
-				PRODUCT_MODULE_NAME = MaterialComponents;
-				PRODUCT_NAME = MaterialComponents;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimplePOS-SimplePOSUITests/Pods-SimplePOS-SimplePOSUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -968,13 +985,12 @@
 			};
 			name = Release;
 		};
-		3A218B00FF8EE97B7678E70FE12F7B79 /* Debug */ = {
+		35C8F96F2F9C799AC079764728F9DC34 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 47FAE662C93DCB75672E720CB12D709D /* Pods-SimplePOS.debug.xcconfig */;
+			baseConfigurationReference = 41F1EE97792EB8D118856F129E9DD26B /* Pods-SimplePOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -983,16 +999,16 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SimplePOS/Pods-SimplePOS-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SimplePOSTests/Pods-SimplePOSTests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SimplePOS/Pods-SimplePOS.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-SimplePOSTests/Pods-SimplePOSTests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1006,13 +1022,12 @@
 			};
 			name = Debug;
 		};
-		502517133A353742401FE65A9CE99650 /* Release */ = {
+		49790D045A3CCE1C3BC48D3BF50E7BF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC7B787D6A6A35CB546CECFFF63B5F13 /* Pods-SimplePOS.release.xcconfig */;
+			baseConfigurationReference = 7252FDEACBFE0791E90A96D81BA1BE13 /* Pods-SimplePOS-SimplePOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1021,16 +1036,16 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SimplePOS/Pods-SimplePOS-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SimplePOS-SimplePOSUITests/Pods-SimplePOS-SimplePOSUITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SimplePOS/Pods-SimplePOS.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-SimplePOS-SimplePOSUITests/Pods-SimplePOS-SimplePOSUITests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1039,16 +1054,86 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		815CD1D682A329D464BF95CEA7D651B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C166955B9AEE74F7EF4D24C33C6CF62E /* MDFInternationalization.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MDFInternationalization/MDFInternationalization-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MDFInternationalization/MDFInternationalization-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MDFInternationalization/MDFInternationalization.modulemap";
+				PRODUCT_MODULE_NAME = MDFInternationalization;
+				PRODUCT_NAME = MDFInternationalization;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		61FC5749665EDDB2D90E737333B3BA8D /* Debug */ = {
+		8CCD2B628B6FF52E7A6D29547D7E1B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 643A9CC095EDFD5F6FE3FBE530E36BBF /* MaterialComponents.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MaterialComponents/MaterialComponents-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MaterialComponents/MaterialComponents-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MaterialComponents/MaterialComponents.modulemap";
+				PRODUCT_MODULE_NAME = MaterialComponents;
+				PRODUCT_NAME = MaterialComponents;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -1071,6 +1156,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1096,7 +1182,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1109,235 +1195,11 @@
 			};
 			name = Debug;
 		};
-		6E4A8C0B7D5D522FFD83A6BB7FF19D70 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C166955B9AEE74F7EF4D24C33C6CF62E /* MDFInternationalization.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MDFInternationalization/MDFInternationalization-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MDFInternationalization/MDFInternationalization-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/MDFInternationalization/MDFInternationalization.modulemap";
-				PRODUCT_MODULE_NAME = MDFInternationalization;
-				PRODUCT_NAME = MDFInternationalization;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		80A41883E888F15522537E0DA212ED02 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7252FDEACBFE0791E90A96D81BA1BE13 /* Pods-SimplePOS-SimplePOSUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SimplePOS-SimplePOSUITests/Pods-SimplePOS-SimplePOSUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SimplePOS-SimplePOSUITests/Pods-SimplePOS-SimplePOSUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		84F1E657FDA6EFC13D06D6820DE21A17 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E355D92A3826599674DBABB3A28815BC /* Pods-SimplePOS-SimplePOSUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SimplePOS-SimplePOSUITests/Pods-SimplePOS-SimplePOSUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SimplePOS-SimplePOSUITests/Pods-SimplePOS-SimplePOSUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9650D5CA440E2F0164E389C11229C398 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE3E70D7AB61DC3DDDFF214DDE5E7177 /* Pods-SimplePOSTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SimplePOSTests/Pods-SimplePOSTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SimplePOSTests/Pods-SimplePOSTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B1B10FC22CDD96CB20BE61F200287716 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41F1EE97792EB8D118856F129E9DD26B /* Pods-SimplePOSTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SimplePOSTests/Pods-SimplePOSTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SimplePOSTests/Pods-SimplePOSTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F1C83C6DBEF491BF8EB244BA760CAFC7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8055D539E4D586904A0F8D3FEBAA3C4A /* MDFInternationalization.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MDFInternationalization/MDFInternationalization-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MDFInternationalization/MDFInternationalization-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/MDFInternationalization/MDFInternationalization.modulemap";
-				PRODUCT_MODULE_NAME = MDFInternationalization;
-				PRODUCT_NAME = MDFInternationalization;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F671B4D3AA8F2CA18D12CD74BD1CDEF9 /* Release */ = {
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -1360,6 +1222,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1382,7 +1245,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1394,12 +1257,49 @@
 			};
 			name = Release;
 		};
-		F9208137E21817ABA75D8C2317D40C2C /* Debug */ = {
+		A7E43CD18EDE0989D9E4A595952EDBF0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 643A9CC095EDFD5F6FE3FBE530E36BBF /* MaterialComponents.debug.xcconfig */;
+			baseConfigurationReference = DE3E70D7AB61DC3DDDFF214DDE5E7177 /* Pods-SimplePOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SimplePOSTests/Pods-SimplePOSTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimplePOSTests/Pods-SimplePOSTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AC64AB5563AA631C1F20873F03D6C24D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90AF79CDFE555D79C58CB0412F5C1492 /* MaterialComponents.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1411,7 +1311,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MaterialComponents/MaterialComponents-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/MaterialComponents-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1425,6 +1325,116 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C6B926CA138B738C10B7F17545D8DA0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8055D539E4D586904A0F8D3FEBAA3C4A /* MDFInternationalization.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MDFInternationalization/MDFInternationalization-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MDFInternationalization/MDFInternationalization-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MDFInternationalization/MDFInternationalization.modulemap";
+				PRODUCT_MODULE_NAME = MDFInternationalization;
+				PRODUCT_NAME = MDFInternationalization;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C9BE83B0A1FBF47661842E1ABB6EC972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC7B787D6A6A35CB546CECFFF63B5F13 /* Pods-SimplePOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SimplePOS/Pods-SimplePOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimplePOS/Pods-SimplePOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FD6B0A32DC3BD4B2949440D41DE8B040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47FAE662C93DCB75672E720CB12D709D /* Pods-SimplePOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SimplePOS/Pods-SimplePOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimplePOS/Pods-SimplePOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -1433,11 +1443,47 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2C4532E54CCEE471FB9DE2C4C55EC31B /* Build configuration list for PBXNativeTarget "MDFInternationalization" */ = {
+		1C5AFB46AAA61CA93C5F3EE9D577B3B7 /* Build configuration list for PBXNativeTarget "MaterialComponents" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F1C83C6DBEF491BF8EB244BA760CAFC7 /* Debug */,
-				6E4A8C0B7D5D522FFD83A6BB7FF19D70 /* Release */,
+				8CCD2B628B6FF52E7A6D29547D7E1B63 /* Debug */,
+				AC64AB5563AA631C1F20873F03D6C24D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FC7F7F6207D16E354025608FCC54923 /* Build configuration list for PBXNativeTarget "Pods-SimplePOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35C8F96F2F9C799AC079764728F9DC34 /* Debug */,
+				A7E43CD18EDE0989D9E4A595952EDBF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29235CC975477CF0AE111D8533A857C9 /* Build configuration list for PBXNativeTarget "MDFInternationalization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6B926CA138B738C10B7F17545D8DA0E /* Debug */,
+				815CD1D682A329D464BF95CEA7D651B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D7DE2CD2FF5C5642FE76D10276FD8CD /* Build configuration list for PBXNativeTarget "Pods-SimplePOS-SimplePOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49790D045A3CCE1C3BC48D3BF50E7BF8 /* Debug */,
+				02AC12E87A9E266A73A099ED4F30393E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36CFD4E526549945C9318522E6DF1F08 /* Build configuration list for PBXNativeTarget "Pods-SimplePOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD6B0A32DC3BD4B2949440D41DE8B040 /* Debug */,
+				C9BE83B0A1FBF47661842E1ABB6EC972 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1445,44 +1491,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				61FC5749665EDDB2D90E737333B3BA8D /* Debug */,
-				F671B4D3AA8F2CA18D12CD74BD1CDEF9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		49259435BC3E75E36546C16A616F62BA /* Build configuration list for PBXNativeTarget "Pods-SimplePOSTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B1B10FC22CDD96CB20BE61F200287716 /* Debug */,
-				9650D5CA440E2F0164E389C11229C398 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		86DCE5EA96D7A99EBC75CC7810CBB5CA /* Build configuration list for PBXNativeTarget "Pods-SimplePOS-SimplePOSUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				80A41883E888F15522537E0DA212ED02 /* Debug */,
-				84F1E657FDA6EFC13D06D6820DE21A17 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		907986841A1283C01BDFA4F57C72C16F /* Build configuration list for PBXNativeTarget "Pods-SimplePOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3A218B00FF8EE97B7678E70FE12F7B79 /* Debug */,
-				502517133A353742401FE65A9CE99650 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BC99951F1E99F5DC31CE5E517990CE34 /* Build configuration list for PBXNativeTarget "MaterialComponents" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F9208137E21817ABA75D8C2317D40C2C /* Debug */,
-				009CD8FF32CE6DAEBC61CC4F131FB898 /* Release */,
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
