@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "closure #2 in MasterViewController.payAllFoods(_:):MasterViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "allTotalPrice">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in closure #2 in MasterViewController.payAllFoods(_:):MasterViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Int(moneyPay)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

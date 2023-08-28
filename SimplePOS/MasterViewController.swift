@@ -64,16 +64,20 @@ class MasterViewController: UIViewController, UICollectionViewDelegateFlowLayout
     @IBAction func payAllFoods(_ sender: Any) {
         let alertController = UIAlertController(title: "Total Harga \(allTotalPrice)", message: "", preferredStyle: UIAlertController.Style.alert)
         
+        //let inputNumber = UITextField()
+        //inputNumber.keyboardType = .numberPad
         
         alertController.addTextField { (textField : UITextField!) -> Void in
             textField.placeholder = "Bayar ?"
+            textField.keyboardType = .numberPad
         }
         
         let saveAction = UIAlertAction(title: "Bayar", style: UIAlertAction.Style.default, handler: { alert -> Void in
             let firstTextField = alertController.textFields![0] as UITextField
             
+            
             if let moneyPay = firstTextField.text {
-                if Int(moneyPay) ?? 0 > Int(self.allTotalPrice){
+                if Int(moneyPay) ?? 0 >= Int(self.allTotalPrice){
                     let resultMoney =  Double(moneyPay)! - Double(self.allTotalPrice)
                     self.moneyChanges.text = "\(resultMoney)"
                 }else{
