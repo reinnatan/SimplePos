@@ -14,6 +14,7 @@
                 <outlet property="foodListSelected" destination="Gw8-YX-Ebi" id="X7V-dz-fXM"/>
                 <outlet property="labelDiscount" destination="Hzy-GL-lrR" id="Z8o-Bv-4FS"/>
                 <outlet property="moneyChanges" destination="NhX-Lc-h3W" id="Hsl-Jc-LHV"/>
+                <outlet property="taxLabel" destination="gGO-s8-myi" id="LZS-Cn-hm0"/>
                 <outlet property="totalPrices" destination="yWK-Xf-8bR" id="qTb-6Z-ioH"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -162,6 +163,9 @@
                             <state key="normal" title="Tax">
                                 <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </state>
+                            <connections>
+                                <action selector="setTax:" destination="-1" eventType="touchUpInside" id="MwV-Tp-u01"/>
+                            </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oib-lK-Kwk">
                             <rect key="frame" x="224" y="167" width="69" height="30"/>
@@ -233,7 +237,7 @@
                 <constraint firstItem="j19-La-hKU" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="ec1-xc-8iA"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Gw8-YX-Ebi" secondAttribute="trailing" id="o1n-xT-rRB"/>
             </constraints>
-            <point key="canvasLocation" x="137.68115942028987" y="150.66964285714286"/>
+            <point key="canvasLocation" x="137.5609756097561" y="150.5084745762712"/>
         </view>
     </objects>
     <resources>
