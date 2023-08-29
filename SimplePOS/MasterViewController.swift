@@ -17,8 +17,10 @@ class MasterViewController: UIViewController, UICollectionViewDelegateFlowLayout
     @IBOutlet weak var foodListSelected: UICollectionView!
     @IBOutlet weak var totalPrices: UILabel!
     @IBOutlet weak var moneyChanges: UILabel!
+    @IBOutlet weak var labelDiscount: UILabel!
     
     var allTotalPrice:Double = 0
+    var discountParse:Double = 0
     
     var menuSelected = [FoodMenuSelected]()
     override func viewDidLoad() {
@@ -77,8 +79,8 @@ class MasterViewController: UIViewController, UICollectionViewDelegateFlowLayout
             
             
             if let moneyPay = firstTextField.text {
-                if Int(moneyPay) ?? 0 >= Int(self.allTotalPrice){
-                    let resultMoney =  Double(moneyPay)! - Double(self.allTotalPrice)
+                if Double(moneyPay) ?? 0 >= (Double(self.allTotalPrice)) - self.discountParse{
+                    let resultMoney =  Double(moneyPay)! - (Double(self.allTotalPrice) - self.discountParse)
                     self.moneyChanges.text = "\(resultMoney)"
                 }else{
                     alertController.dismiss(animated: true, completion: {
@@ -108,8 +110,38 @@ class MasterViewController: UIViewController, UICollectionViewDelegateFlowLayout
         self.present(alertController, animated: true)
         
     }
+    
+    @IBAction func setupDiscount(_ sender: Any) {
+        
+        let alertController = UIAlertController(title: "Discount", message: "", preferredStyle: UIAlertController.Style.alert)
+        alertController.addTextField { (textField : UITextField!) -> Void in
+            textField.placeholder = "Discount"
+            textField.keyboardType = .numberPad
+        }
+        
+        let setDiscountAction = UIAlertAction(title: "Discount", style: UIAlertAction.Style.default, handler: { alert -> Void in
+            let firstTextField = alertController.textFields![0] as UITextField
+            if let discountAmount = firstTextField.text {
+                self.labelDiscount.text = discountAmount
+                self.discountParse = Double(discountAmount) ?? 0
+            }
+        })
+        
+        let cancelDiscountAction = UIAlertAction(title: "Cancel", style: UIAlertAction.Style.default, handler: {
+            (action : UIAlertAction!) -> Void in
+            
+        })
+      
+        alertController.addAction(setDiscountAction)
+        alertController.addAction(cancelDiscountAction)
+        self.present(alertController, animated: true)
+        
+        
+    }
+    
 
 }
+
 
 
 extension MasterViewController:MasterItemviewCellDelegate{
