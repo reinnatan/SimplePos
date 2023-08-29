@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreData
 
 protocol MasterViewDelegate {
     func selectMasterItem(item:String)
@@ -18,10 +19,13 @@ class MasterViewController: UIViewController, UICollectionViewDelegateFlowLayout
     @IBOutlet weak var totalPrices: UILabel!
     @IBOutlet weak var moneyChanges: UILabel!
     @IBOutlet weak var labelDiscount: UILabel!
+    @IBOutlet weak var taxLabel: UILabel!
     
     var allTotalPrice:Double = 0
     var discountParse:Double = 0
-    
+    var taxParse:Double = 0
+    var managedObjectContext:NSManagedObjectContext?
+
     var menuSelected = [FoodMenuSelected]()
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -122,7 +126,7 @@ class MasterViewController: UIViewController, UICollectionViewDelegateFlowLayout
         let setDiscountAction = UIAlertAction(title: "Discount", style: UIAlertAction.Style.default, handler: { alert -> Void in
             let firstTextField = alertController.textFields![0] as UITextField
             if let discountAmount = firstTextField.text {
-                self.labelDiscount.text = discountAmount
+                self.labelDiscount.text = String(Double(discountAmount) ?? 0)
                 self.discountParse = Double(discountAmount) ?? 0
             }
         })
@@ -139,8 +143,71 @@ class MasterViewController: UIViewController, UICollectionViewDelegateFlowLayout
         
     }
     
+    @IBAction func setTax(_ sender: Any) {
+        let alertController = UIAlertController(title: "Tax", message: "", preferredStyle: UIAlertController.Style.alert)
+        alertController.addTextField { (textField : UITextField!) -> Void in
+            textField.placeholder = "Tax"
+            textField.keyboardType = .numberPad
+        }
+        
+        let setDiscountAction = UIAlertAction(title: "Discount", style: UIAlertAction.Style.default, handler: { alert -> Void in
+            let firstTextField = alertController.textFields![0] as UITextField
+            if let taxAmount = firstTextField.text {
+                self.taxLabel.text = String(Double(taxAmount) ?? 0)
+                self.taxParse = Double(taxAmount) ?? 0
+            }
+        })
+        
+        let cancelDiscountAction = UIAlertAction(title: "Cancel", style: UIAlertAction.Style.default, handler: {
+            (action : UIAlertAction!) -> Void in
+            
+        })
+      
+        alertController.addAction(setDiscountAction)
+        alertController.addAction(cancelDiscountAction)
+        self.present(alertController, animated: true)
+    }
+    
+    
+    @IBAction func saveTransaction(_ sender: Any) {
+        let container = NSPersistentContainer(name: "POSDataModel")
+            container.loadPersistentStores(completionHandler: {
+                        (description, error) in
+                if let error = error {
+                    fatalError("Unable to load persistent stores: \(error)")
+                } else {
+                    self.managedObjectContext = container.viewContext
+                }
+            })
+        
+        let posEntity = NSEntityDescription.entity(forEntityName: "POSDataModel", in: self.managedObjectContext!) ?? container.viewContext
+                                                   
+        let POSDataModel = NSManagedObject(entity: posEntity as! NSEntityDescription, insertInto: self.managedObjectContext)
+        
+        for menuPay in menuSelected{
+            POSDataModel.setValue(menuPay.foodName, forKey: "name")
+            POSDataModel.setValue(menuPay.foodPrice, forKey: "price")
+            POSDataModel.setValue(menuPay.foodAmount, forKey: "price")
+            POSDataModel.setValue(menuPay.foodPrice * menuPay.foodPriceTotal, forKey: "total")
+            
+            do {
+                try managedObjectContext?.save()
+                print("Data saved successfully.")
+            } catch {
+                print("Error saving data: \(error)")
+            }
+        }
 
+       
+        
+        
+        
+        
+        
+    }
+    
 }
+
 
 
 

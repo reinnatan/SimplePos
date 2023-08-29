@@ -28,6 +28,7 @@
 		9B8A2389254EFD890048E9BB /* FoodMenuSelected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8A2388254EFD890048E9BB /* FoodMenuSelected.swift */; };
 		9B8A238C254F00560048E9BB /* MasterItemViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8A238A254F00560048E9BB /* MasterItemViewCell.swift */; };
 		9B8A238D254F00560048E9BB /* MasterItemViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B8A238B254F00560048E9BB /* MasterItemViewCell.xib */; };
+		9BB23ECA2AD8FD0E00798346 /* POSDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9BB23EC82AD8FD0E00798346 /* POSDataModel.xcdatamodeld */; };
 		9BFF491A254DB94C003C52C2 /* DetailitemViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFF4918254DB94C003C52C2 /* DetailitemViewCell.swift */; };
 		9BFF491B254DB94C003C52C2 /* DetailitemViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BFF4919254DB94C003C52C2 /* DetailitemViewCell.xib */; };
 		B54F9EF158BED52E4043E645 /* Pods_SimplePOS_SimplePOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7374CF313877A19F9FDE54 /* Pods_SimplePOS_SimplePOSUITests.framework */; };
@@ -84,6 +85,7 @@
 		9B8A2388254EFD890048E9BB /* FoodMenuSelected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodMenuSelected.swift; sourceTree = "<group>"; };
 		9B8A238A254F00560048E9BB /* MasterItemViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterItemViewCell.swift; sourceTree = "<group>"; };
 		9B8A238B254F00560048E9BB /* MasterItemViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MasterItemViewCell.xib; sourceTree = "<group>"; };
+		9BB23EC92AD8FD0E00798346 /* POSDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = POSDataModel.xcdatamodel; sourceTree = "<group>"; };
 		9BFF4918254DB94C003C52C2 /* DetailitemViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailitemViewCell.swift; sourceTree = "<group>"; };
 		9BFF4919254DB94C003C52C2 /* DetailitemViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailitemViewCell.xib; sourceTree = "<group>"; };
 		CDEBF0A057216E82EAE40CCE /* Pods_SimplePOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimplePOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -174,6 +176,7 @@
 				9B8A238B254F00560048E9BB /* MasterItemViewCell.xib */,
 				9B0A0A45254FB26B0097F089 /* MasterFooterItemViewCell.swift */,
 				9B0A0A46254FB26B0097F089 /* MasterFooterItemViewCell.xib */,
+				9BB23EC82AD8FD0E00798346 /* POSDataModel.xcdatamodeld */,
 			);
 			path = SimplePOS;
 			sourceTree = "<group>";
@@ -469,6 +472,7 @@
 				9B8A238C254F00560048E9BB /* MasterItemViewCell.swift in Sources */,
 				9B064B84254C1A15009A89E5 /* HomeMasterDetailController.swift in Sources */,
 				9B064BB5254C1AC3009A89E5 /* DetailViewController.swift in Sources */,
+				9BB23ECA2AD8FD0E00798346 /* POSDataModel.xcdatamodeld in Sources */,
 				9B0A0A47254FB26B0097F089 /* MasterFooterItemViewCell.swift in Sources */,
 				9B8A2389254EFD890048E9BB /* FoodMenuSelected.swift in Sources */,
 				9B064B80254C1A15009A89E5 /* AppDelegate.swift in Sources */,
@@ -802,6 +806,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9BB23EC82AD8FD0E00798346 /* POSDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9BB23EC92AD8FD0E00798346 /* POSDataModel.xcdatamodel */,
+			);
+			currentVersion = 9BB23EC92AD8FD0E00798346 /* POSDataModel.xcdatamodel */;
+			path = POSDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 9B064B74254C1A15009A89E5 /* Project object */;
 }
