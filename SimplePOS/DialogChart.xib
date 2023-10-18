@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="ipad10_9rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DialogChart" customModule="SimplePOS" customModuleProvider="target">
+            <connections>
+                <outlet property="barchartView" destination="BJe-EA-ZVb" id="7qp-61-xSS"/>
+                <outlet property="view" destination="iN0-l3-epB" id="g7P-Xo-XBw"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="820" height="1180"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BJe-EA-ZVb" customClass="BarChartView" customModule="DGCharts">
+                    <rect key="frame" x="0.0" y="24" width="820" height="1136"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="BJe-EA-ZVb" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="A8R-PW-TUc"/>
+                <constraint firstItem="BJe-EA-ZVb" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="F1B-eQ-zwd"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="BJe-EA-ZVb" secondAttribute="trailing" id="h96-aP-9In"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="BJe-EA-ZVb" secondAttribute="bottom" id="jgx-BM-ATK"/>
+            </constraints>
+            <point key="canvasLocation" x="56" y="21"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

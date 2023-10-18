@@ -170,6 +170,7 @@ class MasterViewController: UIViewController, UICollectionViewDelegateFlowLayout
 
     
     @IBAction func saveTransaction(_ sender: Any) {
+        /*
         let container = NSPersistentContainer(name: "POSDataModel")
             container.loadPersistentStores(completionHandler: {
                         (description, error) in
@@ -197,6 +198,11 @@ class MasterViewController: UIViewController, UICollectionViewDelegateFlowLayout
                 print("Error saving data: \(error)")
             }
         }
+         */
+        let vc = DialogChart(nibName: "DialogChart", bundle: nil)
+            vc.modalPresentationStyle = .pageSheet
+            vc.preferredContentSize = .init(width: 800, height: 800)
+            present(vc, animated: true)
         
     }
 }

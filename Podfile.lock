@@ -1,33 +1,39 @@
 PODS:
-  - MaterialComponents/AnimationTiming (118.2.0)
-  - MaterialComponents/Availability (118.2.0)
-  - MaterialComponents/private/Color (118.2.0):
+  - DGCharts (5.0.0):
+    - DGCharts/Core (= 5.0.0)
+  - DGCharts/Core (5.0.0)
+  - MaterialComponents/AnimationTiming (124.2.0)
+  - MaterialComponents/Availability (124.2.0)
+  - MaterialComponents/private/Color (124.2.0):
     - MaterialComponents/Availability
-  - MaterialComponents/private/Math (118.2.0)
-  - MaterialComponents/Ripple (118.2.0):
+  - MaterialComponents/private/Math (124.2.0)
+  - MaterialComponents/Ripple (124.2.0):
     - MaterialComponents/AnimationTiming
     - MaterialComponents/Availability
     - MaterialComponents/private/Color
     - MaterialComponents/private/Math
-  - "MaterialComponents/Tabs+TabBarView (118.2.0)":
+  - "MaterialComponents/Tabs+TabBarView (124.2.0)":
     - MaterialComponents/AnimationTiming
     - MaterialComponents/private/Math
     - MaterialComponents/Ripple
     - MDFInternationalization
-  - MDFInternationalization (2.0.0)
+  - MDFInternationalization (3.0.0)
 
 DEPENDENCIES:
+  - DGCharts
   - "MaterialComponents/Tabs+TabBarView"
 
 SPEC REPOS:
   trunk:
+    - DGCharts
     - MaterialComponents
     - MDFInternationalization
 
 SPEC CHECKSUMS:
-  MaterialComponents: fc3dba46cf3ae8495728a875778b47d0c6ec7ed5
-  MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
+  DGCharts: 6e0cf2644e8f81ad13f04caa8bc18502870a1c54
+  MaterialComponents: 1a9b2d9d45b1601ae544de85089adc4c464306d4
+  MDFInternationalization: d697c55307816222a55685c4ccb1044ffb030c12
 
-PODFILE CHECKSUM: da5c0f61d1bd65379dcc04891c72977bbb2afd71
+PODFILE CHECKSUM: 295b065d8811480922df4f74f416cfe2553f4e57
 
 COCOAPODS: 1.12.1

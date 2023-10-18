@@ -7,10 +7,12 @@ target 'SimplePOS' do
 
   # Pods for SimplePOS
   pod 'MaterialComponents/Tabs+TabBarView'
-
+  pod 'DGCharts'
+  
   target 'SimplePOSTests' do
     inherit! :search_paths
     # Pods for testing
+    
   end
 
   target 'SimplePOSUITests' do

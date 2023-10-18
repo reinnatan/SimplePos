@@ -1,3 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-SimplePOS-SimplePOSUITests/Pods-SimplePOS-SimplePOSUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/DGCharts/DGCharts.framework
 ${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework
 ${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework

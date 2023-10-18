@@ -16,7 +16,9 @@
 
 #import "private/MDCTabBarViewIndicatorView.h"
 #import "private/MDCTabBarViewItemView.h"
+#import "private/MDCTabBarViewItemViewDelegate.h"
 #import "private/MDCTabBarViewPrivateIndicatorContext.h"
+#import "MaterialRipple.h"
 #import "MDCTabBarItemCustomViewing.h"
 #import "MDCTabBarViewCustomViewable.h"
 #import "MDCTabBarViewDelegate.h"
@@ -33,6 +35,24 @@ static char *const kKVOContextMDCTabBarView = "kKVOContextMDCTabBarView";
 
 /** Minimum (typical) height of a Material Tab bar. */
 static const CGFloat kMinHeight = 48;
+
+/** Default minimum width of an item in the Tab bar */
+static const CGFloat kDefaultMinItemWidth = 90;
+
+/// Outer edge padding from spec: https://material.io/go/design-tabs#spec.
+static const UIEdgeInsets kDefaultItemViewContentInsetsTextAndImage = {
+    .top = 12, .right = 16, .bottom = 12, .left = 16};
+
+/**
+ Edge insets for text-only Tabs. Although top and bottom are not specified, we insert some
+ minimal (8 points) padding so things don't look awful.
+ */
+static const UIEdgeInsets kDefaultItemViewContentInsetsTextOnly = {
+    .top = 8, .right = 16, .bottom = 8, .left = 16};
+
+/** Edge insets for image-only Tabs. */
+static const UIEdgeInsets kDefaultItemViewContentInsetsImageOnly = {
+    .top = 12, .right = 16, .bottom = 12, .left = 16};
 
 /** The leading edge inset for scrollable tabs. */
 static const CGFloat kScrollableTabsLeadingEdgeInset = 52;
@@ -55,7 +75,8 @@ static NSString *const kLargeContentSizeImage = @"largeContentSizeImage";
 static NSString *const kLargeContentSizeImageInsets = @"largeContentSizeImageInsets";
 
 #ifdef __IPHONE_13_4
-@interface MDCTabBarView (PointerInteractions) <UIPointerInteractionDelegate>
+@interface MDCTabBarView (PointerInteractions) <UIPointerInteractionDelegate,
+                                                MDCTabBarViewItemViewDelegate>
 @end
 #endif
 
@@ -93,6 +114,8 @@ static NSString *const kLargeContentSizeImageInsets = @"largeContentSizeImageIns
 @property(nonnull, nonatomic, strong)
     NSMutableDictionary<NSNumber *, NSValue *> *layoutStyleToContentPadding;
 
+@property(nonatomic) BOOL useDefaultItemViewContentInsets;
+
 #if defined(__IPHONE_13_0) && (__IPHONE_OS_VERSION_MAX_ALLOWED >= __IPHONE_13_0)
 /**
  The last large content viewer item displayed by the content viewer while the interaction is
@@ -111,56 +134,70 @@ static NSString *const kLargeContentSizeImageInsets = @"largeContentSizeImageIns
 
 #pragma mark - Initialization
 
-- (instancetype)init {
-  self = [super init];
+- (instancetype)initWithFrame:(CGRect)frame {
+  self = [super initWithFrame:frame];
   if (self) {
-    _rippleColor = [[UIColor alloc] initWithWhite:0 alpha:(CGFloat)0.16];
-    _needsScrollToSelectedItem = YES;
-    _shouldAdjustForSafeAreaInsets = YES;
-    _items = @[];
-    _stateToImageTintColor = [NSMutableDictionary dictionary];
-    _stateToTitleColor = [NSMutableDictionary dictionary];
-    _stateToTitleFont = [NSMutableDictionary dictionary];
-    _preferredLayoutStyle = MDCTabBarViewLayoutStyleFixed;
-    _layoutStyleToContentPadding = [NSMutableDictionary dictionary];
-    _layoutStyleToContentPadding[@(MDCTabBarViewLayoutStyleScrollable)] =
-        [NSValue valueWithUIEdgeInsets:UIEdgeInsetsMake(0, kScrollableTabsLeadingEdgeInset, 0, 0)];
-    self.backgroundColor = UIColor.whiteColor;
-    self.showsHorizontalScrollIndicator = NO;
-
-    _selectionIndicatorView = [[MDCTabBarViewIndicatorView alloc] init];
-    _selectionIndicatorView.translatesAutoresizingMaskIntoConstraints = NO;
-    _selectionIndicatorView.userInteractionEnabled = NO;
-    _selectionIndicatorView.tintColor = UIColor.blackColor;
-    _selectionIndicatorView.indicatorPathAnimationDuration = kSelectionChangeAnimationDuration;
-    _selectionIndicatorView.indicatorPathTimingFunction =
-        [CAMediaTimingFunction mdc_functionWithType:MDCAnimationTimingFunctionEaseInOut];
-
-    _selectionIndicatorTemplate = [[MDCTabBarViewUnderlineIndicatorTemplate alloc] init];
-
-    // The bottom divider is positioned behind the selection indicator.
-    _bottomDividerView = [[UIView alloc] init];
-    _bottomDividerView.backgroundColor = UIColor.clearColor;
-    [self addSubview:_bottomDividerView];
-
-    // The selection indicator is positioned behind the item views.
-    [self addSubview:_selectionIndicatorView];
-
-    // By default, inset the content within the safe area. This is generally the desired behavior,
-    // but clients can override it if they want.
-    if (@available(iOS 11.0, *)) {
-      [super setContentInsetAdjustmentBehavior:UIScrollViewContentInsetAdjustmentAlways];
-    }
-
-#if defined(__IPHONE_13_0) && (__IPHONE_OS_VERSION_MAX_ALLOWED >= __IPHONE_13_0)
-    if (@available(iOS 13, *)) {
-      // If clients report conflicting gesture recognizers please see proposed solution in the
-      // internal document: go/mdc-ios-bottomnavigation-largecontentvieweritem
-      [self addInteraction:[[UILargeContentViewerInteraction alloc] initWithDelegate:self]];
-    }
-#endif  // defined(__IPHONE_13_0) && (__IPHONE_OS_VERSION_MAX_ALLOWED >= __IPHONE_13_0)
+    [self commonMDCTabBarViewInit];
   }
   return self;
+}
+
+- (instancetype)initWithCoder:(NSCoder *)aDecoder {
+  self = [super initWithCoder:aDecoder];
+  if (self) {
+    [self commonMDCTabBarViewInit];
+  }
+  return self;
+}
+
+- (void)commonMDCTabBarViewInit {
+  _rippleColor = [[UIColor alloc] initWithWhite:0 alpha:(CGFloat)0.16];
+  _needsScrollToSelectedItem = YES;
+  _shouldAdjustForSafeAreaInsets = YES;
+  _items = @[];
+  _stateToImageTintColor = [NSMutableDictionary dictionary];
+  _stateToTitleColor = [NSMutableDictionary dictionary];
+  _stateToTitleFont = [NSMutableDictionary dictionary];
+  _preferredLayoutStyle = MDCTabBarViewLayoutStyleFixed;
+  _layoutStyleToContentPadding = [NSMutableDictionary dictionary];
+  _layoutStyleToContentPadding[@(MDCTabBarViewLayoutStyleScrollable)] =
+      [NSValue valueWithUIEdgeInsets:UIEdgeInsetsMake(0, kScrollableTabsLeadingEdgeInset, 0, 0)];
+  _minItemWidth = kDefaultMinItemWidth;
+  _useDefaultItemViewContentInsets = YES;
+  self.backgroundColor = UIColor.whiteColor;
+  self.showsHorizontalScrollIndicator = NO;
+
+  _selectionIndicatorView = [[MDCTabBarViewIndicatorView alloc] init];
+  _selectionIndicatorView.translatesAutoresizingMaskIntoConstraints = NO;
+  _selectionIndicatorView.userInteractionEnabled = NO;
+  _selectionIndicatorView.tintColor = UIColor.blackColor;
+  _selectionIndicatorView.indicatorPathAnimationDuration = kSelectionChangeAnimationDuration;
+  _selectionIndicatorView.indicatorPathTimingFunction =
+      [CAMediaTimingFunction mdc_functionWithType:MDCAnimationTimingFunctionEaseInOut];
+
+  _selectionIndicatorTemplate = [[MDCTabBarViewUnderlineIndicatorTemplate alloc] init];
+
+  // The bottom divider is positioned behind the selection indicator.
+  _bottomDividerView = [[UIView alloc] init];
+  _bottomDividerView.backgroundColor = UIColor.clearColor;
+  [self addSubview:_bottomDividerView];
+
+  // The selection indicator is positioned behind the item views.
+  [self addSubview:_selectionIndicatorView];
+
+  // By default, inset the content within the safe area. This is generally the desired behavior,
+  // but clients can override it if they want.
+  if (@available(iOS 11.0, *)) {
+    [super setContentInsetAdjustmentBehavior:UIScrollViewContentInsetAdjustmentAlways];
+  }
+
+#if defined(__IPHONE_13_0) && (__IPHONE_OS_VERSION_MAX_ALLOWED >= __IPHONE_13_0)
+  if (@available(iOS 13, *)) {
+    // If clients report conflicting gesture recognizers please see proposed solution in the
+    // internal document: go/mdc-ios-bottomnavigation-largecontentvieweritem
+    [self addInteraction:[[UILargeContentViewerInteraction alloc] initWithDelegate:self]];
+  }
+#endif  // defined(__IPHONE_13_0) && (__IPHONE_OS_VERSION_MAX_ALLOWED >= __IPHONE_13_0)
 }
 
 - (void)dealloc {
@@ -211,6 +248,11 @@ static NSString *const kLargeContentSizeImageInsets = @"largeContentSizeImageIns
   [self invalidateIntrinsicContentSize];
 }
 
+- (void)setItemViewContentInsets:(UIEdgeInsets)itemViewContentInsets {
+  _itemViewContentInsets = itemViewContentInsets;
+  _useDefaultItemViewContentInsets = NO;
+}
+
 - (void)setItems:(NSArray<UITabBarItem *> *)items {
   NSParameterAssert(items);
 
@@ -238,6 +280,7 @@ static NSString *const kLargeContentSizeImageInsets = @"largeContentSizeImageIns
     }
     if (!itemView) {
       MDCTabBarViewItemView *mdcItemView = [[MDCTabBarViewItemView alloc] init];
+      mdcItemView.itemViewDelegate = self;
       mdcItemView.titleLabel.text = item.title;
       mdcItemView.accessibilityLabel = item.accessibilityLabel;
       mdcItemView.accessibilityHint = item.accessibilityHint;
@@ -249,7 +292,6 @@ static NSString *const kLargeContentSizeImageInsets = @"largeContentSizeImageIns
       mdcItemView.image = item.image;
       mdcItemView.selectedImage = item.selectedImage;
       mdcItemView.rippleTouchController.rippleView.rippleColor = self.rippleColor;
-      mdcItemView.rippleTouchController.shouldProcessRippleWithScrollViewGestures = NO;
 
 #if defined(__IPHONE_13_0) && (__IPHONE_OS_VERSION_MAX_ALLOWED >= __IPHONE_13_0)
       if (@available(iOS 13, *)) {
@@ -289,8 +331,9 @@ static NSString *const kLargeContentSizeImageInsets = @"largeContentSizeImageIns
     newSelectedItem = self.selectedItem;
   }
 
-  self.selectedItem = newSelectedItem;
+  [self setSelectedItem:newSelectedItem animated:NO];
   [self addObserversToTabBarItems];
+  [self updateTitleFontForAllViews];
 
   [self invalidateIntrinsicContentSize];
   [self setNeedsLayout];
@@ -493,6 +536,24 @@ static NSString *const kLargeContentSizeImageInsets = @"largeContentSizeImageIns
   return UIEdgeInsetsZero;
 }
 
+#pragma mark - MDCTabBarViewItemViewDelegate
+
+- (UIEdgeInsets)contentInsetsForItemViewStyle:(MDCTabBarViewItemViewStyle)itemViewStyle {
+  if (self.useDefaultItemViewContentInsets) {
+    switch (itemViewStyle) {
+      case 0:
+        return kDefaultItemViewContentInsetsTextOnly;
+      case 1:
+        return kDefaultItemViewContentInsetsImageOnly;
+      case 2:
+        return kDefaultItemViewContentInsetsTextAndImage;
+    }
+    return self.itemViewContentInsets;
+  } else {
+    return self.itemViewContentInsets;
+  }
+}
+
 #pragma mark - UIAccessibility
 
 - (BOOL)isAccessibilityElement {
@@ -500,10 +561,7 @@ static NSString *const kLargeContentSizeImageInsets = @"largeContentSizeImageIns
 }
 
 - (UIAccessibilityTraits)accessibilityTraits {
-  if (@available(iOS 10.0, *)) {
-    return [super accessibilityTraits] | UIAccessibilityTraitTabBar;
-  }
-  return [super accessibilityTraits];
+  return [super accessibilityTraits] | UIAccessibilityTraitTabBar;
 }
 
 #pragma mark - Custom APIs
@@ -708,7 +766,7 @@ static NSString *const kLargeContentSizeImageInsets = @"largeContentSizeImageIns
   }
 
   self.contentSize = [self calculatedContentSize];
-  [self updateSelectionIndicatorToIndex:[self.items indexOfObject:self.selectedItem]];
+  [self updateSelectionIndicatorToIndex:[self.items indexOfObject:self.selectedItem] animated:NO];
 
   if (self.needsScrollToSelectedItem) {
     self.needsScrollToSelectedItem = NO;
@@ -772,6 +830,9 @@ static NSString *const kLargeContentSizeImageInsets = @"largeContentSizeImageIns
       }
     }
     case MDCTabBarViewLayoutStyleScrollableCentered: {
+      if (UIAccessibilityIsVoiceOverRunning() || UIAccessibilityIsSwitchControlRunning()) {
+        return MDCTabBarViewLayoutStyleScrollable;
+      }
       CGFloat scrollableCenteredWidth =
           [self
               intrinsicContentSizeForNonFixedLayoutStyle:MDCTabBarViewLayoutStyleScrollableCentered]
@@ -847,6 +908,7 @@ static NSString *const kLargeContentSizeImageInsets = @"largeContentSizeImageIns
     itemView.frame = CGRectMake(itemViewOriginX, itemViewOriginY, itemViewWidth, itemViewHeight);
     itemViewOriginX += itemViewWidth;
   }
+  [self updateItemViewsShouldProcessRippleWithScrollViewGestures:YES];
 }
 
 - (void)layoutSubviewsForFixedClusteredLayout:(MDCTabBarViewLayoutStyle)layoutStyle {
@@ -884,6 +946,7 @@ static NSString *const kLargeContentSizeImageInsets = @"largeContentSizeImageIns
     itemView.frame = CGRectMake(itemViewOriginX, itemViewOriginY, itemViewWidth, itemViewHeight);
     itemViewOriginX += itemViewWidth;
   }
+  [self updateItemViewsShouldProcessRippleWithScrollViewGestures:YES];
 }
 
 - (void)layoutSubviewsForScrollableLayout:(MDCTabBarViewLayoutStyle)layoutStyle {
@@ -912,6 +975,7 @@ static NSString *const kLargeContentSizeImageInsets = @"largeContentSizeImageIns
         CGRectMake(itemViewOriginX, itemViewOriginY, intrinsicContentSize.width, itemViewHeight);
     itemViewOriginX += intrinsicContentSize.width;
   }
+  [self updateItemViewsShouldProcessRippleWithScrollViewGestures:NO];
 }
 
 - (void)layoutSubviewsForNonFixedClusteredCentered {
@@ -939,6 +1003,7 @@ static NSString *const kLargeContentSizeImageInsets = @"largeContentSizeImageIns
         CGRectMake(itemViewMinX, itemViewMinY, intrinsicContentSize.width, combineditemSize.height);
     itemViewMinX += intrinsicContentSize.width;
   }
+  [self updateItemViewsShouldProcessRippleWithScrollViewGestures:YES];
 }
 
 - (void)willMoveToSuperview:(UIView *)newSuperview {
@@ -1216,6 +1281,15 @@ static NSString *const kLargeContentSizeImageInsets = @"largeContentSizeImageIns
   [CATransaction commit];
 }
 
+- (void)updateItemViewsShouldProcessRippleWithScrollViewGestures:(BOOL)shouldProcees {
+  for (UIView *itemView in self.itemViews) {
+    if ([itemView isKindOfClass:[MDCTabBarViewItemView class]]) {
+      MDCTabBarViewItemView *mdcItemView = (MDCTabBarViewItemView *)itemView;
+      mdcItemView.rippleTouchController.shouldProcessRippleWithScrollViewGestures = shouldProcees;
+    }
+  }
+}
+
 #pragma mark - Actions
 
 - (void)didTapItemView:(UITapGestureRecognizer *)tap {
@@ -1239,9 +1313,8 @@ static NSString *const kLargeContentSizeImageInsets = @"largeContentSizeImageIns
   }
 }
 
-/// Sets _selectionIndicator's bounds and center to display under the item at the given index with
-/// no animation. May be called from an animation block to animate the transition.
-- (void)updateSelectionIndicatorToIndex:(NSUInteger)index {
+/// Sets _selectionIndicator's bounds and center to display under the item at the given index.
+- (void)updateSelectionIndicatorToIndex:(NSUInteger)index animated:(BOOL)animated {
   if (index == NSNotFound || index >= self.items.count) {
     // Hide selection indicator.
     self.selectionIndicatorView.bounds = CGRectZero;
@@ -1282,7 +1355,14 @@ static NSString *const kLargeContentSizeImageInsets = @"largeContentSizeImageIns
       [template indicatorAttributesForContext:context];
 
   // Update the selection indicator.
-  [self.selectionIndicatorView applySelectionIndicatorAttributes:indicatorAttributes];
+  if (animated) {
+    [self.selectionIndicatorView applySelectionIndicatorAttributes:indicatorAttributes];
+  } else {
+    [CATransaction begin];
+    [CATransaction setDisableActions:YES];
+    [self.selectionIndicatorView applySelectionIndicatorAttributes:indicatorAttributes];
+    [CATransaction commit];
+  }
 }
 
 /**
@@ -1296,7 +1376,7 @@ static NSString *const kLargeContentSizeImageInsets = @"largeContentSizeImageIns
   void (^animationBlock)(void) = ^{
     [self updateImageTintColorForAllViews];
     [self updateTitleFontForAllViews];
-    [self updateSelectionIndicatorToIndex:index];
+    [self updateSelectionIndicatorToIndex:index animated:animate];
 
     // Force layout so any changes to the selection indicator are captured by the animation block.
     [self.selectionIndicatorView layoutIfNeeded];
