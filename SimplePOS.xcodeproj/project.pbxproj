@@ -26,6 +26,7 @@
 		9B160054254D2CA5004804AC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B160052254D2CA5004804AC /* LoginViewController.swift */; };
 		9B160055254D2CA5004804AC /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B160053254D2CA5004804AC /* LoginViewController.xib */; };
 		9B4F9EF02AE03CEB00CAC778 /* DataGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4F9EEF2AE03CEB00CAC778 /* DataGenerator.swift */; };
+		9B4F9EF22AE0426B00CAC778 /* SalesGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4F9EF12AE0426B00CAC778 /* SalesGenerator.swift */; };
 		9B5670BF2AE0246700FA9ABA /* DialogChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5670BE2AE0246700FA9ABA /* DialogChart.swift */; };
 		9B5670C12AE0256C00FA9ABA /* DialogChart.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B5670C02AE0256C00FA9ABA /* DialogChart.xib */; };
 		9B8A2387254EF6660048E9BB /* FoodMenus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8A2386254EF6660048E9BB /* FoodMenus.swift */; };
@@ -86,6 +87,7 @@
 		9B160052254D2CA5004804AC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		9B160053254D2CA5004804AC /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		9B4F9EEF2AE03CEB00CAC778 /* DataGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataGenerator.swift; sourceTree = "<group>"; };
+		9B4F9EF12AE0426B00CAC778 /* SalesGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesGenerator.swift; sourceTree = "<group>"; };
 		9B5670BE2AE0246700FA9ABA /* DialogChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogChart.swift; sourceTree = "<group>"; };
 		9B5670C02AE0256C00FA9ABA /* DialogChart.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DialogChart.xib; sourceTree = "<group>"; };
 		9B8A2386254EF6660048E9BB /* FoodMenus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodMenus.swift; sourceTree = "<group>"; };
@@ -214,6 +216,7 @@
 			isa = PBXGroup;
 			children = (
 				9B4F9EEF2AE03CEB00CAC778 /* DataGenerator.swift */,
+				9B4F9EF12AE0426B00CAC778 /* SalesGenerator.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -496,6 +499,7 @@
 				9B5670BF2AE0246700FA9ABA /* DialogChart.swift in Sources */,
 				9BB23ECA2AD8FD0E00798346 /* POSDataModel.xcdatamodeld in Sources */,
 				9B0A0A47254FB26B0097F089 /* MasterFooterItemViewCell.swift in Sources */,
+				9B4F9EF22AE0426B00CAC778 /* SalesGenerator.swift in Sources */,
 				9B8A2389254EFD890048E9BB /* FoodMenuSelected.swift in Sources */,
 				9B064B80254C1A15009A89E5 /* AppDelegate.swift in Sources */,
 				9B064B82254C1A15009A89E5 /* SceneDelegate.swift in Sources */,
