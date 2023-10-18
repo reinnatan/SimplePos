@@ -8,6 +8,7 @@
 
 import UIKit
 import DGCharts
+import CoreData
 
 
 class DialogChart: UIViewController {
@@ -15,8 +16,21 @@ class DialogChart: UIViewController {
     @IBOutlet weak var barchartView: BarChartView!
     
     override func viewDidLoad() {
-        let sales = DataGenerator.data()
+       
         
+        let container = NSPersistentContainer(name: "POSDataModel")
+            container.loadPersistentStores(completionHandler: {
+                        (description, error) in
+                if let error = error {
+                    fatalError("Unable to load persistent stores: \(error)")
+                } else {
+                    SalesGenerator.data(context: container.viewContext)
+                }
+            })
+        
+        
+        
+        var sales = [Sale]()
         var salesEntries = [ChartDataEntry]()
             
             // Initialize an array to store months (labels; x axis)

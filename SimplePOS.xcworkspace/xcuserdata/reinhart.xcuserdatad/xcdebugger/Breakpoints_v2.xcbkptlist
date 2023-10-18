@@ -84,5 +84,132 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8E196134-9CB2-48C3-A1DA-D8894EF827FE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SimplePOS/Util/SalesGenerator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "data(context:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9DF885CD-18F6-4557-B998-302B8346BDF1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SimplePOS/Util/SalesGenerator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "data(context:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "488CBD29-B956-413E-918A-6609C0176C36"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SimplePOS/Util/SalesGenerator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "data(context:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "488CBD29-B956-413E-918A-6609C0176C36 - f7c50a10c1e261fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static SimplePOS.SalesGenerator.data(context: __C.NSManagedObjectContext) -&gt; Swift.Array&lt;SimplePOS.SalesGenerator.Sale&gt;"
+                  moduleName = "SimplePOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/reinhart/Documents/SimplePos/SimplePOS/Util/SalesGenerator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "340">
+               </Location>
+               <Location
+                  uuid = "488CBD29-B956-413E-918A-6609C0176C36 - f7c50a10c1e261fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static SimplePOS.SalesGenerator.data(context: __C.NSManagedObjectContext) -&gt; Swift.Array&lt;SimplePOS.SalesGenerator.Sale&gt;"
+                  moduleName = "SimplePOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/reinhart/Documents/SimplePos/SimplePOS/Util/SalesGenerator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "328">
+               </Location>
+               <Location
+                  uuid = "488CBD29-B956-413E-918A-6609C0176C36 - f7c50a10c1e261fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static SimplePOS.SalesGenerator.data(context: __C.NSManagedObjectContext) -&gt; Swift.Array&lt;SimplePOS.SalesGenerator.Sale&gt;"
+                  moduleName = "SimplePOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/reinhart/Documents/SimplePos/SimplePOS/Util/SalesGenerator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "348">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E93532C2-2D6A-4E24-A070-186E58A2E963"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SimplePOS/Util/SalesGenerator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "data(context:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0DB4DE60-A70E-42C6-AB93-7F3E4F61C613"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SimplePOS/Util/SalesGenerator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "data(context:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
