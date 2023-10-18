@@ -167,7 +167,7 @@ class MasterViewController: UIViewController, UICollectionViewDelegateFlowLayout
         alertController.addAction(cancelDiscountAction)
         self.present(alertController, animated: true)
     }
-    
+
     
     @IBAction func saveTransaction(_ sender: Any) {
         let container = NSPersistentContainer(name: "POSDataModel")
@@ -197,18 +197,9 @@ class MasterViewController: UIViewController, UICollectionViewDelegateFlowLayout
                 print("Error saving data: \(error)")
             }
         }
-
-       
-        
-        
-        
-        
         
     }
-    
 }
-
-
 
 
 extension MasterViewController:MasterItemviewCellDelegate{
