@@ -28,9 +28,9 @@ class DialogChart: UIViewController {
                 }
             })
         
-        
-        
-        
+    
+    
+        //var sales = [Sale]()
         var salesEntries = [ChartDataEntry]()
             
             // Initialize an array to store months (labels; x axis)
