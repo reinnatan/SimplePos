@@ -14,6 +14,9 @@
          contextName = "static SalesGenerator.data(context:):SalesGenerator.swift">
          <PersistentStrings>
             <PersistentString
+               value = "data.value(forKey: &quot;dateTrx&quot;)  as! Date">
+            </PersistentString>
+            <PersistentString
                value = "data.value(forKey: &quot;amount&quot;)">
             </PersistentString>
          </PersistentStrings>

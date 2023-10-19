@@ -26,9 +26,9 @@ class SalesGenerator{
         do {
             let result = try context.fetch(request)
             for data in result as! [NSManagedObject] {
+                let date = data.value(forKey: "dateTrx")  as? Date ?? Date()
 
-                if transactionData[data.value(forKey: "dateTrx") as! Date] == nil{
-                    let date = data.value(forKey: "dateTrx") as! Date
+                if  transactionData[date] == nil{
                     totalPrice = data.value(forKey: "total") as! Int64
                     transactionData[date] = totalPrice
                 }else{

@@ -29,7 +29,6 @@ class DialogChart: UIViewController {
             })
         
     
-    
         //var sales = [Sale]()
         var salesEntries = [ChartDataEntry]()
             
